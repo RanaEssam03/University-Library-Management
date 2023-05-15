@@ -1,0 +1,30 @@
+D:\FCAI\Level2 second term\data_base\library_system\bin\Debug\net7.0\library_system.exe
+D:\FCAI\Level2 second term\data_base\library_system\bin\Debug\net7.0\library_system.deps.json
+D:\FCAI\Level2 second term\data_base\library_system\bin\Debug\net7.0\library_system.runtimeconfig.json
+D:\FCAI\Level2 second term\data_base\library_system\bin\Debug\net7.0\library_system.dll
+D:\FCAI\Level2 second term\data_base\library_system\bin\Debug\net7.0\library_system.pdb
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.csproj.AssemblyReference.cache
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.GeneratedMSBuildEditorConfig.editorconfig
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.AssemblyInfoInputs.cache
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.AssemblyInfo.cs
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.csproj.CoreCompileInputs.cache
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.dll
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\refint\library_system.dll
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.pdb
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\library_system.genruntimeconfig.cache
+D:\FCAI\Level2 second term\data_base\library_system\obj\Debug\net7.0\ref\library_system.dll
+D:\FCAI\Level2 second term\data_base\University Library Management\bin\Debug\net7.0\library_system.exe
+D:\FCAI\Level2 second term\data_base\University Library Management\bin\Debug\net7.0\library_system.deps.json
+D:\FCAI\Level2 second term\data_base\University Library Management\bin\Debug\net7.0\library_system.runtimeconfig.json
+D:\FCAI\Level2 second term\data_base\University Library Management\bin\Debug\net7.0\library_system.dll
+D:\FCAI\Level2 second term\data_base\University Library Management\bin\Debug\net7.0\library_system.pdb
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.csproj.AssemblyReference.cache
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.GeneratedMSBuildEditorConfig.editorconfig
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.AssemblyInfoInputs.cache
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.AssemblyInfo.cs
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.csproj.CoreCompileInputs.cache
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.dll
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\refint\library_system.dll
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.pdb
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\library_system.genruntimeconfig.cache
+D:\FCAI\Level2 second term\data_base\University Library Management\obj\Debug\net7.0\ref\library_system.dll
