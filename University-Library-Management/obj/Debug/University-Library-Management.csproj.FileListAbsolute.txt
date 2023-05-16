@@ -1,0 +1,12 @@
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe.config
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.pdb
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.AssemblyReference.cache
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.SuggestedBindingRedirects.cache
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form1.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Properties.Resources.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.GenerateResource.cache
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form2.resources
