@@ -42,7 +42,7 @@ namespace University_Library_Management
                 _connection.Open();
                 string sqlInsert = "INSERT INTO \"USER\"(EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, ROLE)" +
                     "VALUES(@email, @password, @first_name, @last_name, \'Student\')";
-                SqlCommand sqlCommand = new SqlCommand(sqlInsert, conn);
+                SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
                 sqlCommand.Parameters.AddWithValue("@email", email_input.Text);
                 sqlCommand.Parameters.AddWithValue("@password", password_input.Text);
                 sqlCommand.Parameters.AddWithValue("@first_name", first_name_input.Text);
