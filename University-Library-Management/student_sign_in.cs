@@ -55,6 +55,7 @@ namespace University_Library_Management
                     error.Text = "Invalid credentials";
 
                 }
+                _connection.Close();
             }
             catch(Exception ex)
             {
