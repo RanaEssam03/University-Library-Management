@@ -40,18 +40,21 @@ namespace University_Library_Management
             try
             {
                 _connection.Open();
-                string sqlInsert = "INSERT INTO USER(EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, ROLE)" +
-                    "VALUES(@email, @password, @first_name, @last_name, Student)";
-                SqlCommand sqlCommand = new SqlCommand(sqlInsert);
+                string sqlInsert = "INSERT INTO \"USER\"(EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, ROLE)" +
+                    "VALUES(@email, @password, @first_name, @last_name, \'Student\')";
+                SqlCommand sqlCommand = new SqlCommand(sqlInsert, conn);
                 sqlCommand.Parameters.AddWithValue("@email", email_input.Text);
                 sqlCommand.Parameters.AddWithValue("@password", password_input.Text);
                 sqlCommand.Parameters.AddWithValue("@first_name", first_name_input.Text);
                 sqlCommand.Parameters.AddWithValue("@last_name", last_name_input.Text) ;
+                
                 sqlCommand.ExecuteNonQuery();
+                Hide();
                 _connection.Close();
             }
-            catch { 
-
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
     }
