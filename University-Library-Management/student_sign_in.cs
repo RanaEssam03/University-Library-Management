@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace University_Library_Management
 {
-    public partial class Form2 : Form
+    public partial class student_sign_in : Form
     {
-        public Form2()
+        public student_sign_in()
         {
             InitializeComponent();
         }

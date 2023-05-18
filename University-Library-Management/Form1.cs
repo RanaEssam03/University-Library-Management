@@ -51,7 +51,7 @@ namespace University_Library_Management
                 SqlDataAdapter da = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
-                dataGridView1.DataSource = dt;
+
 
                 conn.Close();
                 //MessageBox.Show("Selected Successfully!");
@@ -76,6 +76,8 @@ namespace University_Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            student_form std_form = new student_form();
+            Hide();
+            std_form.Show();
         }
     } }

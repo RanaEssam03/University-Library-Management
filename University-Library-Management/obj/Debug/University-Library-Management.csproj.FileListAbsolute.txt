@@ -10,3 +10,17 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form2.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe.config
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.pdb
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.AssemblyReference.cache
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.SuggestedBindingRedirects.cache
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form1.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Properties.Resources.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_form.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.GenerateResource.cache
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_in.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_upcs.resources
