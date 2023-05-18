@@ -49,8 +49,11 @@ namespace University_Library_Management
                 sqlCommand.Parameters.AddWithValue("@last_name", last_name_input.Text) ;
                 
                 sqlCommand.ExecuteNonQuery();
-                Hide();
                 _connection.Close();
+
+                Form form = new student_sign_in();
+                Hide();
+                form.Show();
             }
             catch (Exception ex)
             {

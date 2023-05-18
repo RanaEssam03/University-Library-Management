@@ -23,6 +23,14 @@ namespace University_Library_Management
             student_sign_upcs std_form = new student_sign_upcs();
             Hide();
             std_form.Show();
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form form = new student_sign_in();
+            Hide();
+            form.Show();
         }
     }
 }
