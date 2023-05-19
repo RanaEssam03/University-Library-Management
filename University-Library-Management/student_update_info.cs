@@ -19,6 +19,7 @@ namespace University_Library_Management
 
         public student_update_info(string email)
         {
+         
             this.Set_email(email);
             InitializeComponent();
 
@@ -83,16 +84,52 @@ namespace University_Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+            firstNameError.Text = string.Empty;
+            lastNameError.Text = string.Empty;
+            yearError.Text = string.Empty;
+            if(first_name.Text == string.Empty)
+            {
+                firstNameError.Text = "Can't Be Empty";
+
+            }
+            if(last_name.Text == string.Empty)
+            {
+                lastNameError.Text = "Can't Be Empty";
+            }
+            if(year.Text != "1" && year.Text != "2" && year.Text != "3" && year.Text != "4" && year.Text != "5" && year.Text != string.Empty)
+            {
+                yearError.Text = "Invalid Year";
+            }
+            else
+            {
+                if(first_name.Text != string.Empty && last_name.Text != string.Empty)
+                {
+                    string sqlQuery = "UPDATE \"USER\" SET FIRST_NAME = @fname , LAST_NAME= @lname , YEAR = year Where EMAIL = @email ";
+                    _conn.Open();
+                    SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
+                    cmd.Parameters.AddWithValue("@fname", first_name.Text);
+                    cmd.Parameters.AddWithValue("@lname", last_name.Text);
+                    cmd.Parameters.AddWithValue("@email", _email);
+                    cmd.ExecuteNonQuery();
+                    _conn.Close();
+                    MessageBox.Show("Updated Successfully!");
+
+
+                }
+            }
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Text = "Rana";
+          
         }
 
         private void student_update_info_Load(object sender, EventArgs e)
         {
+            firstNameError.Text = string.Empty;
+            lastNameError.Text = string.Empty;
+            yearError.Text = string.Empty;
 
         }
 
@@ -109,6 +146,11 @@ namespace University_Library_Management
         public void Set_email(string value)
         {
             _email = value;
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

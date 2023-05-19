@@ -41,6 +41,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
+            this.firstNameError = new System.Windows.Forms.Label();
+            this.yearError = new System.Windows.Forms.Label();
+            this.lastNameError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // EmailText
@@ -162,11 +165,42 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // firstNameError
+            // 
+            this.firstNameError.AutoSize = true;
+            this.firstNameError.Location = new System.Drawing.Point(612, 159);
+            this.firstNameError.Name = "firstNameError";
+            this.firstNameError.Size = new System.Drawing.Size(27, 16);
+            this.firstNameError.TabIndex = 13;
+            this.firstNameError.Text = "first";
+            this.firstNameError.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // yearError
+            // 
+            this.yearError.AutoSize = true;
+            this.yearError.Location = new System.Drawing.Point(612, 254);
+            this.yearError.Name = "yearError";
+            this.yearError.Size = new System.Drawing.Size(44, 16);
+            this.yearError.TabIndex = 15;
+            this.yearError.Text = "label9";
+            // 
+            // lastNameError
+            // 
+            this.lastNameError.AutoSize = true;
+            this.lastNameError.Location = new System.Drawing.Point(612, 206);
+            this.lastNameError.Name = "lastNameError";
+            this.lastNameError.Size = new System.Drawing.Size(51, 16);
+            this.lastNameError.TabIndex = 16;
+            this.lastNameError.Text = "label10";
+            // 
             // student_update_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(850, 466);
+            this.Controls.Add(this.lastNameError);
+            this.Controls.Add(this.yearError);
+            this.Controls.Add(this.firstNameError);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label6);
@@ -203,5 +237,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label firstNameError;
+        private System.Windows.Forms.Label yearError;
+        private System.Windows.Forms.Label lastNameError;
     }
 }
