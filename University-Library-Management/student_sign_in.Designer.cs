@@ -93,6 +93,7 @@
             this.label2.Size = new System.Drawing.Size(41, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Email";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // label3
             // 

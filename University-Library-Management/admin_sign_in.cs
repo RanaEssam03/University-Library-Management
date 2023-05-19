@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.Common;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace University_Library_Management
 {
-    public partial class student_sign_in : Form
-    {
+    public partial class admin_sign_in : Form
+    { 
         private SqlConnection _connection;
-        public student_sign_in()
+
+        public admin_sign_in()
         {
             InitializeComponent();
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
@@ -31,6 +32,11 @@ namespace University_Library_Management
             _connection = new SqlConnection(connString1);
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -38,14 +44,14 @@ namespace University_Library_Management
                 _connection.Open();
                 string sqlQuery = "SELECT PASSWORD FROM \"USER\" WHERE EMAIL = @email AND PASSWORD = @password";
                 SqlCommand Command = new SqlCommand(sqlQuery, _connection);
-                Command.Parameters.AddWithValue("@email", email.Text);
-                Command.Parameters.AddWithValue("@password", password.Text);
+                Command.Parameters.AddWithValue("@email", textBox1.Text);
+                Command.Parameters.AddWithValue("@password", textBox2.Text);
 
                 SqlDataReader reader = Command.ExecuteReader();
                 if (reader.Read())
                 {
                     error.Text = "";
-                    Form form = new student_main_screen();
+                    Form form = new admin_main_screen();
                     Hide();
                     form.Show();
 
@@ -57,54 +63,18 @@ namespace University_Library_Management
                 }
                 _connection.Close();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
-
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void student_sign_in_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void email_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form form = new student_form();
-            Hide();
-            form.Show();
-            
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Form form = new student_sign_upcs();
-            Hide();
-            form.Show();
-        }
-        private void label2_Click_1(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }

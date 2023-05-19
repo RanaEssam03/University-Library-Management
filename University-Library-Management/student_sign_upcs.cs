@@ -126,5 +126,10 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void email_input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

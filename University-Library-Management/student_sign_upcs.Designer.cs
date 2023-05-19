@@ -52,6 +52,7 @@
             this.email_input.Name = "email_input";
             this.email_input.Size = new System.Drawing.Size(267, 22);
             this.email_input.TabIndex = 0;
+            this.email_input.TextChanged += new System.EventHandler(this.email_input_TextChanged);
             // 
             // password_input
             // 
