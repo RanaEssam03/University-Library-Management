@@ -60,5 +60,10 @@ namespace University_Library_Management
                 Console.WriteLine("Error: " + ex.Message);
             }
         }
+
+        private void email_input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
