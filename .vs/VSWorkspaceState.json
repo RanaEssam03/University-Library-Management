@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\University-Library-Management"
+    "\\University-Library-Management",
+    "\\University-Library-Management\\Properties"
   ],
-  "SelectedNode": "\\University-Library-Management\\student_sign_upcs.cs",
+  "SelectedNode": "\\University-Library-Management\\student_update_info.cs",
   "PreviewInSolutionExplorer": false
 }

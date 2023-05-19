@@ -80,7 +80,7 @@ namespace University_Library_Management
             }
             if(newPassword.Text ==  confirmNewPassword.Text && currentPassword.Text == this._oldPassword)
             {
-                if(newPassword.Text.Length <= 8)
+                if(newPassword.Text.Length < 8)
                 {
                     newPasswordError.Text = "At least 8 characters LONG or more!";
 

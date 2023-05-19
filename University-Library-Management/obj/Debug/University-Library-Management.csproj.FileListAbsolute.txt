@@ -28,3 +28,5 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_upcs.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_info.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_password.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_main_screen.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_books.resources

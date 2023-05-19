@@ -16,7 +16,7 @@ namespace University_Library_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new student_update_info("ranaessam03@gmail.com"));
+            Application.Run(new student_form());
         }
     }
 }
