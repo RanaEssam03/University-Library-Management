@@ -10,7 +10,7 @@
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-    
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -34,10 +34,9 @@
             // 
             // StudentButton
             // 
-            this.StudentButton.Location = new System.Drawing.Point(500, 154);
-            this.StudentButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StudentButton.Location = new System.Drawing.Point(667, 190);
             this.StudentButton.Name = "StudentButton";
-            this.StudentButton.Size = new System.Drawing.Size(122, 72);
+            this.StudentButton.Size = new System.Drawing.Size(163, 89);
             this.StudentButton.TabIndex = 3;
             this.StudentButton.Text = "Student";
             this.StudentButton.UseVisualStyleBackColor = true;
@@ -47,10 +46,9 @@
             // 
             this.AdminButton.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.AdminButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.AdminButton.Location = new System.Drawing.Point(250, 155);
-            this.AdminButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminButton.Location = new System.Drawing.Point(333, 191);
             this.AdminButton.Name = "AdminButton";
-            this.AdminButton.Size = new System.Drawing.Size(131, 72);
+            this.AdminButton.Size = new System.Drawing.Size(175, 88);
             this.AdminButton.TabIndex = 4;
             this.AdminButton.Text = "Admin";
             this.AdminButton.UseVisualStyleBackColor = true;
@@ -58,15 +56,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 366);
+            this.ClientSize = new System.Drawing.Size(1178, 450);
             this.Controls.Add(this.AdminButton);
             this.Controls.Add(this.StudentButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
-            //this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
