@@ -61,6 +61,7 @@
             this.Controls.Add(this.personalInfo);
             this.Name = "student_main_screen";
             this.Text = "student_main_screen";
+            this.Load += new System.EventHandler(this.student_main_screen_Load);
             this.ResumeLayout(false);
 
         }
