@@ -88,5 +88,21 @@ namespace University_Library_Management
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form form = new student_form();
+            Hide();
+            form.Show();
+            
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form form = new student_sign_upcs();
+            Hide();
+            form.Show();
+        }
     }
 }

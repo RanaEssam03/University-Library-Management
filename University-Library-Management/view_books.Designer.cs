@@ -36,7 +36,7 @@
             // 
             // search
             // 
-            this.search.Location = new System.Drawing.Point(564, 62);
+            this.search.Location = new System.Drawing.Point(753, 63);
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(75, 23);
             this.search.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // searchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(210, 62);
+            this.searchBox.Location = new System.Drawing.Point(399, 63);
             this.searchBox.Name = "searchBox";
             this.searchBox.Size = new System.Drawing.Size(285, 22);
             this.searchBox.TabIndex = 1;
@@ -61,7 +61,7 @@
             this.catalog.AllowUserToResizeColumns = false;
             this.catalog.AllowUserToResizeRows = false;
             this.catalog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.catalog.Location = new System.Drawing.Point(32, 129);
+            this.catalog.Location = new System.Drawing.Point(221, 130);
             this.catalog.Name = "catalog";
             this.catalog.RowHeadersWidth = 51;
             this.catalog.RowTemplate.Height = 24;
@@ -73,7 +73,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1178, 450);
             this.Controls.Add(this.catalog);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.search);

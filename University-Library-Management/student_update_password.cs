@@ -82,7 +82,7 @@ namespace University_Library_Management
             {
                 if(newPassword.Text.Length < 8)
                 {
-                    newPasswordError.Text = "At least 8 characters LONG or more!";
+                    newPasswordError.Text = "At least 8 characters LONG or more";
 
                 }
                 else
@@ -115,6 +115,13 @@ namespace University_Library_Management
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form form = new student_update_info(_email);
+            Hide();
+            form.Show();
         }
     }
 }
