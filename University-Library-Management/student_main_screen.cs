@@ -16,5 +16,17 @@ namespace University_Library_Management
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewBooks_Click(object sender, EventArgs e)
+        {
+            Form form = new view_books();
+            Hide();
+            form.ShowDialog();
+        }
     }
 }

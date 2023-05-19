@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.personalInfo = new System.Windows.Forms.Button();
+            this.viewBooks = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // personalInfo
+            // 
+            this.personalInfo.Location = new System.Drawing.Point(363, 198);
+            this.personalInfo.Name = "personalInfo";
+            this.personalInfo.Size = new System.Drawing.Size(188, 75);
+            this.personalInfo.TabIndex = 0;
+            this.personalInfo.Text = "Persoanl Info";
+            this.personalInfo.UseVisualStyleBackColor = true;
+            this.personalInfo.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // viewBooks
+            // 
+            this.viewBooks.Location = new System.Drawing.Point(576, 197);
+            this.viewBooks.Name = "viewBooks";
+            this.viewBooks.Size = new System.Drawing.Size(200, 76);
+            this.viewBooks.TabIndex = 1;
+            this.viewBooks.Text = "View Books";
+            this.viewBooks.UseVisualStyleBackColor = true;
+            this.viewBooks.Click += new System.EventHandler(this.viewBooks_Click);
+            // 
+            // student_main_screen
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1178, 450);
+            this.Controls.Add(this.viewBooks);
+            this.Controls.Add(this.personalInfo);
+            this.Name = "student_main_screen";
             this.Text = "student_main_screen";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button personalInfo;
+        private System.Windows.Forms.Button viewBooks;
     }
 }

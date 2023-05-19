@@ -34,9 +34,9 @@
             // 
             // sign_up_std
             // 
-            this.sign_up_std.Location = new System.Drawing.Point(118, 107);
+            this.sign_up_std.Location = new System.Drawing.Point(380, 197);
             this.sign_up_std.Name = "sign_up_std";
-            this.sign_up_std.Size = new System.Drawing.Size(104, 54);
+            this.sign_up_std.Size = new System.Drawing.Size(157, 71);
             this.sign_up_std.TabIndex = 0;
             this.sign_up_std.Text = "Sign Up";
             this.sign_up_std.UseVisualStyleBackColor = true;
@@ -44,9 +44,9 @@
             // 
             // sign_in
             // 
-            this.sign_in.Location = new System.Drawing.Point(363, 107);
+            this.sign_in.Location = new System.Drawing.Point(625, 197);
             this.sign_in.Name = "sign_in";
-            this.sign_in.Size = new System.Drawing.Size(108, 54);
+            this.sign_in.Size = new System.Drawing.Size(161, 71);
             this.sign_in.TabIndex = 1;
             this.sign_in.Text = "Sing In";
             this.sign_in.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 282);
+            this.ClientSize = new System.Drawing.Size(1178, 450);
             this.Controls.Add(this.sign_in);
             this.Controls.Add(this.sign_up_std);
             this.Name = "student_form";
