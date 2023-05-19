@@ -44,6 +44,7 @@
             this.firstNameError = new System.Windows.Forms.Label();
             this.yearError = new System.Windows.Forms.Label();
             this.lastNameError = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // EmailText
@@ -193,11 +194,22 @@
             this.lastNameError.TabIndex = 16;
             this.lastNameError.Text = "label10";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(-3, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 38);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "<-Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // student_update_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.lastNameError);
             this.Controls.Add(this.yearError);
             this.Controls.Add(this.firstNameError);
@@ -240,5 +252,6 @@
         private System.Windows.Forms.Label firstNameError;
         private System.Windows.Forms.Label yearError;
         private System.Windows.Forms.Label lastNameError;
+        private System.Windows.Forms.Button button2;
     }
 }

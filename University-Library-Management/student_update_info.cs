@@ -154,5 +154,12 @@ namespace University_Library_Management
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new student_info(_email);
+            Hide();
+            form.Show();
+        }
     }
 }
