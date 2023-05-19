@@ -78,6 +78,18 @@
     <Compile Include="student_sign_upcs.Designer.cs">
       <DependentUpon>student_sign_upcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="student_update_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_update_info.Designer.cs">
+      <DependentUpon>student_update_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_update_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_update_password.Designer.cs">
+      <DependentUpon>student_update_password.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +110,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="student_sign_upcs.resx">
       <DependentUpon>student_sign_upcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_update_info.resx">
+      <DependentUpon>student_update_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_update_password.resx">
+      <DependentUpon>student_update_password.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
