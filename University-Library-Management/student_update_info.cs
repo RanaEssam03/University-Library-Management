@@ -45,7 +45,7 @@ namespace University_Library_Management
                      first_name.Text = reader[2].ToString();
                      last_name.Text = reader[3].ToString();
                         
-                   
+        
                         year.Text = reader[5].ToString();
                  
                         this.password.Text = reader[1].ToString();   
@@ -104,12 +104,14 @@ namespace University_Library_Management
             {
                 if(first_name.Text != string.Empty && last_name.Text != string.Empty)
                 {
-                    string sqlQuery = "UPDATE \"USER\" SET FIRST_NAME = @fname , LAST_NAME= @lname , YEAR = year Where EMAIL = @email ";
+                    string sqlQuery = "UPDATE \"USER\" SET FIRST_NAME = @fname , LAST_NAME= @lname , YEAR = @year Where EMAIL = @email ";
                     _conn.Open();
                     SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
                     cmd.Parameters.AddWithValue("@fname", first_name.Text);
                     cmd.Parameters.AddWithValue("@lname", last_name.Text);
                     cmd.Parameters.AddWithValue("@email", _email);
+                    cmd.Parameters.AddWithValue("@year", year.Text);
+
                     cmd.ExecuteNonQuery();
                     _conn.Close();
                     MessageBox.Show("Updated Successfully!");
