@@ -131,5 +131,15 @@ namespace University_Library_Management
         {
 
         }
+
+        private void passwordError_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void first_name_input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
