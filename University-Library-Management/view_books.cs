@@ -14,9 +14,11 @@ namespace University_Library_Management
     public partial class view_books : Form
     {
         SqlConnection _conn;
-        public view_books()
+        String _email;
+        public view_books(string email="")
         {
             InitializeComponent();
+            _email = email;
 
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
             var database = "UniversityLibrarySystem"; //your database name
@@ -80,6 +82,13 @@ namespace University_Library_Management
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form = new student_main_screen(_email);
+            Hide();
+            form.Show();
         }
     }
 }

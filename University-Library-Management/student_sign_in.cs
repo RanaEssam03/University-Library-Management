@@ -45,7 +45,7 @@ namespace University_Library_Management
                 if (reader.Read())
                 {
                     error.Text = "";
-                    Form form = new student_main_screen();
+                    Form form = new student_main_screen(email.Text);
                     Hide();
                     form.Show();
 
