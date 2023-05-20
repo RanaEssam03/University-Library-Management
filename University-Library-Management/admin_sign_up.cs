@@ -55,12 +55,12 @@ namespace University_Library_Management
             if (reader.Read())
             {
                 MessageBox.Show("This email is already associated with an account.");
-                Form form = new student_sign_in();
+                Form form = new admin_sign_in();
                 Hide();
                 form.Show();
 
             }
-
+            _connection.Close();
             if (Password.Text != confirmPassword.Text)
             {
                 flag = false;

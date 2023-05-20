@@ -103,6 +103,7 @@ namespace University_Library_Management
                     Console.WriteLine("Error: " + ex.Message);
                 }
             }
+            _connection.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
