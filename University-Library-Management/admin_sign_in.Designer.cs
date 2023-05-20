@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.error = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -80,11 +81,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // error
+            // 
+            this.error.AutoSize = true;
+            this.error.Location = new System.Drawing.Point(358, 305);
+            this.error.Name = "error";
+            this.error.Size = new System.Drawing.Size(0, 16);
+            this.error.TabIndex = 5;
+            this.error.Click += new System.EventHandler(this.label3_Click);
+            // 
             // admin_sign_in
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.error);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -92,6 +103,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "admin_sign_in";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.admin_sign_in_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

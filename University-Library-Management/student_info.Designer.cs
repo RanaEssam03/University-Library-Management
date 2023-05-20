@@ -80,6 +80,7 @@
             this.textBox4.Location = new System.Drawing.Point(230, 255);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(144, 20);
             this.textBox4.TabIndex = 3;
