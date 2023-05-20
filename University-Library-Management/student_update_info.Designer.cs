@@ -49,50 +49,62 @@
             // 
             // EmailText
             // 
+            this.EmailText.BackColor = System.Drawing.SystemColors.Menu;
             this.EmailText.Enabled = false;
-            this.EmailText.Location = new System.Drawing.Point(400, 117);
+            this.EmailText.Location = new System.Drawing.Point(375, 63);
+            this.EmailText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EmailText.Name = "EmailText";
-            this.EmailText.Size = new System.Drawing.Size(303, 22);
+            this.EmailText.Size = new System.Drawing.Size(228, 20);
             this.EmailText.TabIndex = 0;
             this.EmailText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // first_name
             // 
-            this.first_name.Location = new System.Drawing.Point(400, 160);
+            this.first_name.BackColor = System.Drawing.SystemColors.Menu;
+            this.first_name.Location = new System.Drawing.Point(375, 116);
+            this.first_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.first_name.Name = "first_name";
-            this.first_name.Size = new System.Drawing.Size(303, 22);
+            this.first_name.Size = new System.Drawing.Size(228, 20);
             this.first_name.TabIndex = 1;
             // 
             // last_name
             // 
-            this.last_name.Location = new System.Drawing.Point(400, 207);
+            this.last_name.BackColor = System.Drawing.SystemColors.Menu;
+            this.last_name.Location = new System.Drawing.Point(375, 164);
+            this.last_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.last_name.Name = "last_name";
-            this.last_name.Size = new System.Drawing.Size(303, 22);
+            this.last_name.Size = new System.Drawing.Size(228, 20);
             this.last_name.TabIndex = 2;
             // 
             // year
             // 
-            this.year.Location = new System.Drawing.Point(400, 252);
+            this.year.BackColor = System.Drawing.SystemColors.Menu;
+            this.year.Location = new System.Drawing.Point(375, 210);
+            this.year.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.year.Name = "year";
-            this.year.Size = new System.Drawing.Size(303, 22);
+            this.year.Size = new System.Drawing.Size(228, 20);
             this.year.TabIndex = 3;
             // 
             // password
             // 
+            this.password.BackColor = System.Drawing.SystemColors.Menu;
             this.password.Enabled = false;
-            this.password.Location = new System.Drawing.Point(400, 300);
+            this.password.Location = new System.Drawing.Point(375, 258);
+            this.password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.password.Name = "password";
             this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(303, 22);
+            this.password.Size = new System.Drawing.Size(228, 20);
             this.password.TabIndex = 4;
             this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(523, 40);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(406, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 16);
+            this.label1.Size = new System.Drawing.Size(136, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Update Info";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -100,9 +112,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(315, 117);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Location = new System.Drawing.Point(250, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.Size = new System.Drawing.Size(48, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Email";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -110,18 +125,24 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(315, 258);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label3.Location = new System.Drawing.Point(253, 217);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 16);
+            this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Year";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(315, 213);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label4.Location = new System.Drawing.Point(250, 171);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 16);
+            this.label4.Size = new System.Drawing.Size(86, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Last Name";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -129,9 +150,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(315, 166);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label5.Location = new System.Drawing.Point(248, 123);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 16);
+            this.label5.Size = new System.Drawing.Size(86, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "First Name";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -139,18 +163,24 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(315, 306);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label6.Location = new System.Drawing.Point(255, 256);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 16);
+            this.label6.Size = new System.Drawing.Size(78, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "Password";
             // 
             // linkLabel1
             // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Teal;
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(588, 325);
+            this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
+            this.linkLabel1.Location = new System.Drawing.Point(451, 344);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(115, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(91, 13);
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Update Password";
@@ -158,20 +188,25 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(459, 365);
+            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(437, 294);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 48);
+            this.button1.Size = new System.Drawing.Size(105, 39);
             this.button1.TabIndex = 12;
             this.button1.Text = "Update ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // firstNameError
             // 
             this.firstNameError.AutoSize = true;
-            this.firstNameError.Location = new System.Drawing.Point(757, 160);
+            this.firstNameError.Location = new System.Drawing.Point(655, 126);
+            this.firstNameError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.firstNameError.Name = "firstNameError";
-            this.firstNameError.Size = new System.Drawing.Size(27, 16);
+            this.firstNameError.Size = new System.Drawing.Size(23, 13);
             this.firstNameError.TabIndex = 13;
             this.firstNameError.Text = "first";
             this.firstNameError.Click += new System.EventHandler(this.label7_Click);
@@ -179,36 +214,42 @@
             // yearError
             // 
             this.yearError.AutoSize = true;
-            this.yearError.Location = new System.Drawing.Point(757, 255);
+            this.yearError.Location = new System.Drawing.Point(655, 213);
+            this.yearError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yearError.Name = "yearError";
-            this.yearError.Size = new System.Drawing.Size(44, 16);
+            this.yearError.Size = new System.Drawing.Size(35, 13);
             this.yearError.TabIndex = 15;
             this.yearError.Text = "label9";
             // 
             // lastNameError
             // 
             this.lastNameError.AutoSize = true;
-            this.lastNameError.Location = new System.Drawing.Point(757, 207);
+            this.lastNameError.Location = new System.Drawing.Point(649, 171);
+            this.lastNameError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lastNameError.Name = "lastNameError";
-            this.lastNameError.Size = new System.Drawing.Size(51, 16);
+            this.lastNameError.Size = new System.Drawing.Size(41, 13);
             this.lastNameError.TabIndex = 16;
             this.lastNameError.Text = "label10";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(-3, 0);
+            this.button2.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(-2, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 38);
+            this.button2.Size = new System.Drawing.Size(83, 31);
             this.button2.TabIndex = 17;
             this.button2.Text = "<-Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // student_update_info
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 450);
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ClientSize = new System.Drawing.Size(884, 366);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lastNameError);
             this.Controls.Add(this.yearError);
@@ -226,6 +267,7 @@
             this.Controls.Add(this.last_name);
             this.Controls.Add(this.first_name);
             this.Controls.Add(this.EmailText);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "student_update_info";
             this.Text = "student_update_info";
             this.Load += new System.EventHandler(this.student_update_info_Load);

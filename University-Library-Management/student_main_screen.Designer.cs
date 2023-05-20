@@ -34,33 +34,44 @@
             // 
             // personalInfo
             // 
-            this.personalInfo.Location = new System.Drawing.Point(363, 198);
+            this.personalInfo.BackColor = System.Drawing.SystemColors.Desktop;
+            this.personalInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personalInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.personalInfo.Location = new System.Drawing.Point(150, 99);
+            this.personalInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.personalInfo.Name = "personalInfo";
-            this.personalInfo.Size = new System.Drawing.Size(188, 75);
+            this.personalInfo.Size = new System.Drawing.Size(252, 169);
             this.personalInfo.TabIndex = 0;
             this.personalInfo.Text = "Persoanl Info";
-            this.personalInfo.UseVisualStyleBackColor = true;
+            this.personalInfo.UseVisualStyleBackColor = false;
             this.personalInfo.Click += new System.EventHandler(this.button1_Click);
             // 
             // viewBooks
             // 
-            this.viewBooks.Location = new System.Drawing.Point(576, 197);
+            this.viewBooks.BackColor = System.Drawing.SystemColors.Desktop;
+            this.viewBooks.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewBooks.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.viewBooks.Location = new System.Drawing.Point(504, 99);
+            this.viewBooks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.viewBooks.Name = "viewBooks";
-            this.viewBooks.Size = new System.Drawing.Size(200, 76);
+            this.viewBooks.Size = new System.Drawing.Size(234, 169);
             this.viewBooks.TabIndex = 1;
             this.viewBooks.Text = "View Books";
-            this.viewBooks.UseVisualStyleBackColor = true;
+            this.viewBooks.UseVisualStyleBackColor = false;
             this.viewBooks.Click += new System.EventHandler(this.viewBooks_Click);
             // 
             // student_main_screen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 450);
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ClientSize = new System.Drawing.Size(884, 366);
             this.Controls.Add(this.viewBooks);
             this.Controls.Add(this.personalInfo);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "student_main_screen";
-            this.Text = "student_main_screen";
+            this.ShowIcon = false;
+            this.Text = "Main Screen";
             this.Load += new System.EventHandler(this.student_main_screen_Load);
             this.ResumeLayout(false);
 

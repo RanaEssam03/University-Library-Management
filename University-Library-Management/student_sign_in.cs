@@ -104,9 +104,5 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
