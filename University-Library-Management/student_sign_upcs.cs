@@ -118,7 +118,9 @@ namespace University_Library_Management
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Form form = new student_sign_in();
+            Hide();
+            form.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

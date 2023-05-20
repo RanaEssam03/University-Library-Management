@@ -42,7 +42,7 @@ namespace University_Library_Management
             try
             {
                 _connection.Open();
-                string sqlQuery = "SELECT PASSWORD FROM \"USER\" WHERE EMAIL = @email AND PASSWORD = @password";
+                string sqlQuery = "SELECT PASSWORD FROM \"USER\" WHERE EMAIL = @email AND PASSWORD = @password AND ROLE = 'Admin'" ;
                 SqlCommand Command = new SqlCommand(sqlQuery, _connection);
                 Command.Parameters.AddWithValue("@email", textBox1.Text);
                 Command.Parameters.AddWithValue("@password", textBox2.Text);
@@ -96,6 +96,10 @@ namespace University_Library_Management
             Form form = new admin_sign_up();
             Hide();
             form.Show();
+        }
+        private void admin_sign_in_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

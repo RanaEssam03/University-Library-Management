@@ -32,5 +32,10 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

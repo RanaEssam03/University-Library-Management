@@ -12,21 +12,30 @@ namespace University_Library_Management
 {
     public partial class student_main_screen : Form
     {
-        public student_main_screen()
+        string _email;
+        public student_main_screen(string email)
         {
             InitializeComponent();
+            this._email = email;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form form = new student_info(_email);
+            Hide();
+            form.Show();
         }
 
         private void viewBooks_Click(object sender, EventArgs e)
         {
-            Form form = new view_books();
+            Form form = new view_books(_email);
             Hide();
             form.ShowDialog();
+        }
+
+        private void student_main_screen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

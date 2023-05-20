@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.error = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -113,6 +114,14 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "New Admin?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // error
+            // 
+            this.error.AutoSize = true;
+            this.error.Location = new System.Drawing.Point(358, 305);
+            this.error.Name = "error";
+            this.error.Size = new System.Drawing.Size(0, 16);
+            this.error.TabIndex = 5;
+            this.error.Click += new System.EventHandler(this.label3_Click);
             // 
             // admin_sign_in
             // 
@@ -122,6 +131,7 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.error);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -129,6 +139,8 @@
             this.Controls.Add(this.textBox1);
             this.Name = "admin_sign_in";
             this.Text = "Admin Sign In";
+            this.Text = "Form2";
+            this.Load += new System.EventHandler(this.admin_sign_in_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
