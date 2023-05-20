@@ -71,7 +71,7 @@ namespace University_Library_Management
 
         private void button2_Click(object sender, EventArgs e)
         {
-            admin_form std_form = new admin_form();
+            Form std_form = new admin_form();
             Hide();
             std_form.Show();
         }

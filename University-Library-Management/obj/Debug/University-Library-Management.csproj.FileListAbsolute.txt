@@ -30,6 +30,13 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_password.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_main_screen.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_books.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_form.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_in.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_up.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_main_screen.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_info.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_password.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_books.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_form.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_in.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_info.resources

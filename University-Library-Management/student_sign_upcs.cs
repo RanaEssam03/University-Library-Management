@@ -103,6 +103,7 @@ namespace University_Library_Management
                     Console.WriteLine("Error: " + ex.Message);
                 }
             }
+            _connection.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -130,6 +131,16 @@ namespace University_Library_Management
         }
 
         private void email_input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passwordError_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void first_name_input_TextChanged(object sender, EventArgs e)
         {
 
         }

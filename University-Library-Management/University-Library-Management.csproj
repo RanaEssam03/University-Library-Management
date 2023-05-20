@@ -150,6 +150,9 @@
     <EmbeddedResource Include="admin_sign_in.resx">
       <DependentUpon>admin_sign_in.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="admin_sign_up.resx">
+      <DependentUpon>admin_sign_up.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

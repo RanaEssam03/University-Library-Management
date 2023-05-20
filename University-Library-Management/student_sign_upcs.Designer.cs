@@ -89,6 +89,7 @@
             this.first_name_input.Name = "first_name_input";
             this.first_name_input.Size = new System.Drawing.Size(267, 22);
             this.first_name_input.TabIndex = 3;
+            this.first_name_input.TextChanged += new System.EventHandler(this.first_name_input_TextChanged);
             // 
             // last_name_input
             // 
@@ -172,6 +173,7 @@
             this.passwordError.Size = new System.Drawing.Size(99, 16);
             this.passwordError.TabIndex = 11;
             this.passwordError.Text = "Password Error";
+            this.passwordError.Click += new System.EventHandler(this.passwordError_Click);
             // 
             // emailError
             // 

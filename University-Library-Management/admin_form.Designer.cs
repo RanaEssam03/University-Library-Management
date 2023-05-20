@@ -60,7 +60,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "admin_form";
-            this.Text = "Form2";
+            this.Text = "Admin Form";
             this.ResumeLayout(false);
 
         }
