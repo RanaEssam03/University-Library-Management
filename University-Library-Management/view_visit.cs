@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
@@ -12,19 +13,12 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace University_Library_Management
 {
-    public partial class Form1 : Form
+    public partial class view_visit : Form
     {
-        public Form1()
+        private SqlConnection _connection;
+        public view_visit()
         {
             InitializeComponent();
-        }
-
-
-
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
             var database = "UniversityLibrarySystem"; //your database name
             var username = "admon"; //username of server to connect
@@ -35,27 +29,25 @@ namespace University_Library_Management
                         + database + ";Persist Security Info=True;User ID=" + username + ";Password=" + password;
 
 
-            SqlConnection conn = new SqlConnection(connString1);
+            _connection = new SqlConnection(connString1);
+        }
 
+        private void view_visit_Load(object sender, EventArgs e)
+        {
             try
             {
                 //open connection
-                conn.Open();
-
-                //MessageBox.Show("Connection Successful...");
-
-                string sqlQuerySelect = "SELECT * FROM \"USER\"" ;
-
-                SqlCommand command = new SqlCommand(sqlQuerySelect, conn);
-
+                _connection.Open();
+                string sqlQuery = "SELECT * FROM VISIT";
+                SqlCommand command = new SqlCommand(sqlQuery, _connection);
+                    
                 SqlDataAdapter da = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
+                dataGridView1.DataSource = dt;
 
-
-                conn.Close();
-                //MessageBox.Show("Selected Successfully!");
-
+                _connection.Close();
+               
 
             }
             catch (Exception ex)
@@ -63,28 +55,5 @@ namespace University_Library_Management
                 Console.WriteLine("Error: " + ex.Message);
             }
         }
-
-        private void Students_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            admin_form std_form = new admin_form();
-            Hide();
-            std_form.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            student_form std_form = new student_form();
-            Hide();
-            std_form.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-    } }
+    }
+}
