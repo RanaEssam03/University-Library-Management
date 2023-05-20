@@ -161,6 +161,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="student_form.resx">
       <DependentUpon>student_form.cs</DependentUpon>
@@ -201,6 +202,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\stanford-university-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\stanford-university-tiny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\stanford-university.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\stanford-university-big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\stanford-university-seal-seeklogo.com.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

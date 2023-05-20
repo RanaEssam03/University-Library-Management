@@ -33,3 +33,6 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_form.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_in.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_info.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_visit.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_main_screen.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_visit.resources

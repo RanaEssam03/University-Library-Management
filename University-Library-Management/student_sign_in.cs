@@ -17,6 +17,7 @@ namespace University_Library_Management
         private SqlConnection _connection;
         public student_sign_in()
         {
+            
             InitializeComponent();
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
             var database = "UniversityLibrarySystem"; //your database name
@@ -33,6 +34,7 @@ namespace University_Library_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             try
             {
                 _connection.Open();
@@ -57,7 +59,7 @@ namespace University_Library_Management
                 }
                 _connection.Close();
             }
-            catch(Exception ex)
+            catch(Exception )
             {
 
             }
@@ -69,10 +71,7 @@ namespace University_Library_Management
 
         }
 
-        private void student_sign_in_Load(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -103,6 +102,11 @@ namespace University_Library_Management
             Form form = new student_sign_upcs();
             Hide();
             form.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

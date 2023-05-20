@@ -30,6 +30,8 @@
         {
             this.sign_up_std = new System.Windows.Forms.Button();
             this.sign_in = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // sign_up_std
@@ -58,6 +60,16 @@
             this.sign_in.UseVisualStyleBackColor = false;
             this.sign_in.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::University_Library_Management.Properties.Resources.stanford_university_small;
+            this.pictureBox1.Location = new System.Drawing.Point(510, 160);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(143, 155);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // student_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -66,12 +78,14 @@
             this.ClientSize = new System.Drawing.Size(1120, 450);
             this.Controls.Add(this.sign_in);
             this.Controls.Add(this.sign_up_std);
+            this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "student_form";
             this.ShowIcon = false;
             this.Text = "Student Form";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.TransparencyKey = System.Drawing.Color.Silver;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -80,5 +94,6 @@
 
         private System.Windows.Forms.Button sign_up_std;
         private System.Windows.Forms.Button sign_in;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
