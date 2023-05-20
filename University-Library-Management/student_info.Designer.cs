@@ -72,6 +72,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(114, 270);
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(190, 22);
             this.textBox4.TabIndex = 3;
