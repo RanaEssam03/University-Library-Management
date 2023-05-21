@@ -58,6 +58,12 @@
     <Compile Include="add_visit.Designer.cs">
       <DependentUpon>add_visit.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookRate.Designer.cs">
+      <DependentUpon>BookRate.cs</DependentUpon>
+    </Compile>
     <Compile Include="choose_book.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin_sign_up.resx">
       <DependentUpon>admin_sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookRate.resx">
+      <DependentUpon>BookRate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="choose_book.resx">
       <DependentUpon>choose_book.cs</DependentUpon>
