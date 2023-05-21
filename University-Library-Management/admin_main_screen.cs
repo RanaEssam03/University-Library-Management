@@ -31,9 +31,7 @@ namespace University_Library_Management
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form add_visit = new add_visit();
-            Hide();
-            add_visit.Show();
+
 
         }
 

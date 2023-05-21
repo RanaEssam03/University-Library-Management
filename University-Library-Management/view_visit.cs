@@ -55,5 +55,12 @@ namespace University_Library_Management
                 Console.WriteLine("Error: " + ex.Message);
             }
         }
+
+        private void add_visit_Click(object sender, EventArgs e)
+        {
+            Form add_visit = new add_visit();
+            Hide();
+            add_visit.Show();
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.add_visit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,11 +45,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(472, 327);
             this.dataGridView1.TabIndex = 0;
             // 
+            // add_visit
+            // 
+            this.add_visit.Location = new System.Drawing.Point(314, 401);
+            this.add_visit.Name = "add_visit";
+            this.add_visit.Size = new System.Drawing.Size(157, 37);
+            this.add_visit.TabIndex = 2;
+            this.add_visit.Text = "Add a Visit";
+            this.add_visit.UseVisualStyleBackColor = true;
+            this.add_visit.Click += new System.EventHandler(this.add_visit_Click);
+            // 
             // view_visit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.add_visit);
             this.Controls.Add(this.dataGridView1);
             this.Name = "view_visit";
             this.Text = "view_visit";
@@ -61,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button add_visit;
     }
 }
