@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_book.Designer.cs">
+      <DependentUpon>add_book.cs</DependentUpon>
+    </Compile>
     <Compile Include="add_visit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,12 @@
     <Compile Include="student_info.Designer.cs">
       <DependentUpon>student_info.cs</DependentUpon>
     </Compile>
+    <Compile Include="view_and_edit_books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_and_edit_books.Designer.cs">
+      <DependentUpon>view_and_edit_books.cs</DependentUpon>
+    </Compile>
     <Compile Include="view_books.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +150,9 @@
     <Compile Include="view_visit.Designer.cs">
       <DependentUpon>view_visit.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="add_book.resx">
+      <DependentUpon>add_book.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="add_visit.resx">
       <DependentUpon>add_visit.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="student_info.resx">
       <DependentUpon>student_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_and_edit_books.resx">
+      <DependentUpon>view_and_edit_books.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view_books.resx">
       <DependentUpon>view_books.cs</DependentUpon>

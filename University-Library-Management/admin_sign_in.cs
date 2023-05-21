@@ -65,7 +65,7 @@ namespace University_Library_Management
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
         }
 

@@ -41,5 +41,12 @@ namespace University_Library_Management
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form form = new view_and_edit_books();
+            Hide();
+            form.Show();
+        }
     }
 }

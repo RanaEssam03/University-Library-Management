@@ -43,3 +43,9 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_visit.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_main_screen.resources
 D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_visit.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_visit.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_main_screen.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_info.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_visit.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_book.resources
+D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_and_edit_books.resources
