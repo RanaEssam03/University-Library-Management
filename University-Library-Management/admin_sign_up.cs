@@ -14,11 +14,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace University_Library_Management
 {
     public partial class admin_sign_up : Form
-    { 
+    {
 
         private SqlConnection _connection;
 
-    
+
         public admin_sign_up()
         {
             InitializeComponent();
@@ -90,7 +90,7 @@ namespace University_Library_Management
                         "VALUES(@email, @password, @first_name, @last_name, \'Admin\')";
                     SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
                     sqlCommand.Parameters.AddWithValue("@email", Email.Text);
-                    sqlCommand.Parameters.AddWithValue("@password", Password.Text);
+                    sqlCommand.Parameters.AddWithValue("@password", Encryption.Hashstring(Password.Text));
                     sqlCommand.Parameters.AddWithValue("@first_name", firstName.Text);
                     sqlCommand.Parameters.AddWithValue("@last_name", lastName.Text);
 
