@@ -61,7 +61,7 @@ create  table BOOK
    ISBN                 varchar(20)                    not null,
    AUTHOR               varchar(64)                    not null,
    CATEGORY             varchar(64)                    not null,
-   PUBLICATION_YEAR     timestamp                      not null,
+   PUBLICATION_YEAR     date						   not null,
    AMOUNT               integer                        null,
    constraint PK_BOOK primary key clustered (ISBN)
 );
@@ -124,7 +124,7 @@ ISBN ASC
 create  table "USER" 
 (
    EMAIL                varchar(256)                   not null,
-   PASSWORD             varchar(64)                    not null,
+   [PASSWORD]             varchar(256)                    not null,
    FIRST_NAME           varchar(64)                    not null,
    LAST_NAME            varchar(64)                    not null,
    ROLE                 varchar(20)                    null,

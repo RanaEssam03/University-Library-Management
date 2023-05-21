@@ -45,22 +45,31 @@ namespace University_Library_Management
         {
             Regex validateEmailRegex = new Regex("^\\S+@\\S+\\.\\S+$");
             bool flag = true;
-
             _connection.Open();
-            string sqlQuery = "SELECT * FROM \"USER\" WHERE EMAIL = @email";
-            SqlCommand Command = new SqlCommand(sqlQuery, _connection);
-            Command.Parameters.AddWithValue("@email", Email.Text);
-
-            SqlDataReader reader = Command.ExecuteReader();
-            if (reader.Read())
+            try
             {
-                MessageBox.Show("This email is already associated with an account.");
-                Form form = new admin_sign_in();
-                Hide();
-                form.Show();
 
+                string sqlQuery = "SELECT * FROM \"USER\" WHERE EMAIL = @email";
+                SqlCommand Command = new SqlCommand(sqlQuery, _connection);
+                Command.Parameters.AddWithValue("@email", Email.Text);
+
+                SqlDataReader reader = Command.ExecuteReader();
+                if (reader.Read())
+                {
+                    MessageBox.Show("This email is already associated with an account.");
+                    Form form = new admin_sign_in();
+                    Hide();
+                    form.Show();
+
+                }
+                
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
             }
             _connection.Close();
+
             if (Password.Text != confirmPassword.Text)
             {
                 flag = false;
@@ -83,9 +92,10 @@ namespace University_Library_Management
 
             if (flag)
             {
+                _connection.Open();
                 try
                 {
-                    _connection.Open();
+                    
                     string sqlInsert = "INSERT INTO \"USER\"(EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, ROLE)" +
                         "VALUES(@email, @password, @first_name, @last_name, \'Admin\')";
                     SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
@@ -95,7 +105,7 @@ namespace University_Library_Management
                     sqlCommand.Parameters.AddWithValue("@last_name", lastName.Text);
 
                     sqlCommand.ExecuteNonQuery();
-                    _connection.Close();
+                    
 
                     Form form = new admin_sign_in();
                     Hide();
@@ -103,8 +113,9 @@ namespace University_Library_Management
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    MessageBox.Show(ex.ToString());
                 }
+                _connection.Close();
             }
         }
 
