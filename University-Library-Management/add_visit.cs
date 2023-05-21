@@ -115,5 +115,12 @@ namespace University_Library_Management
         {
 
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Form form = new view_visit();
+            Hide();
+            form.Show();
+        }
     }
 }

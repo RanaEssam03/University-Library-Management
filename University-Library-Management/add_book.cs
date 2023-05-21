@@ -164,5 +164,10 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void amountField_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
