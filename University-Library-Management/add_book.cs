@@ -106,7 +106,7 @@ namespace University_Library_Management
         {
             category.Text = ((TextBox)sender).Text;
             Regex rg = new Regex(@"^[a-zA-Z ]+$");
-            _validCategory = rg.IsMatch(authorField.Text);
+            _validCategory = rg.IsMatch(category.Text);
             if (!_validCategory)
                 error_text.Text = "Category name can't contain numbers or symbols";
             else

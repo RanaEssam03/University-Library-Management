@@ -153,7 +153,7 @@
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(250, 421);
+            this.add.Location = new System.Drawing.Point(114, 414);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(151, 36);
             this.add.TabIndex = 12;
@@ -168,7 +168,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.error_text.AutoSize = true;
             this.error_text.ForeColor = System.Drawing.Color.Red;
-            this.error_text.Location = new System.Drawing.Point(319, 383);
+            this.error_text.Location = new System.Drawing.Point(111, 384);
             this.error_text.Name = "error_text";
             this.error_text.Size = new System.Drawing.Size(0, 16);
             this.error_text.TabIndex = 13;

@@ -83,5 +83,12 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void edit_book_Click(object sender, EventArgs e)
+        {
+            Form form = new choose_book();
+            Hide();
+            form.Show();
+        }
     }
 }

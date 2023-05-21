@@ -161,5 +161,10 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
