@@ -39,7 +39,7 @@
             this.view_visit.Name = "view_visit";
             this.view_visit.Size = new System.Drawing.Size(157, 74);
             this.view_visit.TabIndex = 0;
-            this.view_visit.Text = "Viewa all Visits";
+            this.view_visit.Text = "View all Visits";
             this.view_visit.UseVisualStyleBackColor = true;
             this.view_visit.Click += new System.EventHandler(this.button1_Click);
             // 

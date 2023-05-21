@@ -33,6 +33,7 @@
             this.search = new System.Windows.Forms.Button();
             this.add_book = new System.Windows.Forms.Button();
             this.edit_book = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.catalog)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,11 +99,22 @@
             this.edit_book.UseVisualStyleBackColor = true;
             this.edit_book.Click += new System.EventHandler(this.edit_book_Click);
             // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(28, 27);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.TabIndex = 23;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // view_and_edit_books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.edit_book);
             this.Controls.Add(this.add_book);
             this.Controls.Add(this.search);
@@ -124,5 +136,6 @@
         private System.Windows.Forms.Button search;
         private System.Windows.Forms.Button add_book;
         public System.Windows.Forms.Button edit_book;
+        private System.Windows.Forms.Button back;
     }
 }

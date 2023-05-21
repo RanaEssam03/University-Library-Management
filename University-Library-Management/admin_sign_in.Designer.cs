@@ -53,6 +53,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(299, 22);
             this.textBox2.TabIndex = 1;
+            this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
@@ -114,6 +115,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "New Admin?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // error
             // 
             this.error.AutoSize = true;
@@ -138,7 +140,6 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "admin_sign_in";
-            this.Text = "Admin Sign In";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.admin_sign_in_Load);
             this.ResumeLayout(false);

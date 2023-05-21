@@ -90,5 +90,12 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Form form = new admin_main_screen();
+            Hide();
+            form.Show();
+        }
     }
 }
