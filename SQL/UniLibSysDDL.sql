@@ -62,7 +62,7 @@ create  table BOOK
    AUTHOR               varchar(64)                    not null,
    CATEGORY             varchar(64)                    not null,
    PUBLICATION_YEAR     date						   not null,
-   AMOUNT               integer                        null,
+   AMOUNT               integer                        not null,
    constraint PK_BOOK primary key clustered (ISBN)
 );
 
