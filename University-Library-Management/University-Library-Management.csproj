@@ -76,6 +76,7 @@
     <Compile Include="edit_book.Designer.cs">
       <DependentUpon>edit_book.cs</DependentUpon>
     </Compile>
+    <Compile Include="Encryption.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -41,7 +41,7 @@ namespace University_Library_Management
                 string sqlQuery = "SELECT PASSWORD FROM \"USER\" WHERE EMAIL = @email AND PASSWORD = @password";
                 SqlCommand Command = new SqlCommand(sqlQuery, _connection);
                 Command.Parameters.AddWithValue("@email", email.Text);
-                Command.Parameters.AddWithValue("@password", password.Text);
+                Command.Parameters.AddWithValue("@password", Encryption.Hashstring(password.Text));
 
                 SqlDataReader reader = Command.ExecuteReader();
                 if (reader.Read())

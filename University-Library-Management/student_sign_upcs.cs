@@ -87,7 +87,7 @@ namespace University_Library_Management
                         "VALUES(@email, @password, @first_name, @last_name, \'Student\')";
                     SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
                     sqlCommand.Parameters.AddWithValue("@email", email_input.Text);
-                    sqlCommand.Parameters.AddWithValue("@password", password_input.Text);
+                    sqlCommand.Parameters.AddWithValue("@password", Encryption.Hashstring(password_input.Text));
                     sqlCommand.Parameters.AddWithValue("@first_name", first_name_input.Text);
                     sqlCommand.Parameters.AddWithValue("@last_name", last_name_input.Text);
 
