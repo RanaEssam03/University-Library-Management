@@ -46,21 +46,25 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(190, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 16);
+            this.label1.Size = new System.Drawing.Size(199, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Please enter book ISBN";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // edit_book
             // 
+            this.edit_book.BackColor = System.Drawing.Color.Maroon;
+            this.edit_book.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.edit_book.ForeColor = System.Drawing.SystemColors.Menu;
             this.edit_book.Location = new System.Drawing.Point(317, 184);
             this.edit_book.Name = "edit_book";
-            this.edit_book.Size = new System.Drawing.Size(169, 34);
+            this.edit_book.Size = new System.Drawing.Size(149, 34);
             this.edit_book.TabIndex = 8;
             this.edit_book.Text = "Edit Book";
-            this.edit_book.UseVisualStyleBackColor = true;
+            this.edit_book.UseVisualStyleBackColor = false;
             this.edit_book.Click += new System.EventHandler(this.edit_book_Click);
             // 
             // error_text
@@ -78,18 +82,22 @@
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.BackColor = System.Drawing.Color.Maroon;
+            this.back.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.SystemColors.Menu;
+            this.back.Location = new System.Drawing.Point(3, 2);
             this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.Size = new System.Drawing.Size(75, 31);
             this.back.TabIndex = 15;
-            this.back.Text = "Back";
-            this.back.UseVisualStyleBackColor = true;
+            this.back.Text = "<-Back";
+            this.back.UseVisualStyleBackColor = false;
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // choose_book
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(800, 287);
             this.Controls.Add(this.back);
             this.Controls.Add(this.error_text);

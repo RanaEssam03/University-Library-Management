@@ -35,7 +35,9 @@ namespace University_Library_Management
 
         private void view_books_Load(object sender, EventArgs e)
         {
-            string sqlQuery = "SELECT ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT FROM BOOK";
+            string sqlQuery = "SELECT BOOK.ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT, AVG(RATING) AS RATING FROM BOOK Left JOIN BOOK_RATING " +
+                    "ON BOOK.ISBN = BOOK_RATING.ISBN " +
+                "GROUP BY BOOK.ISBN , TITLE , AUTHOR , CATEGORY , AMOUNT";
             _conn.Open();
             SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
             try
@@ -46,7 +48,9 @@ namespace University_Library_Management
                 catalog.DataSource = dt;
                 _conn.Close();
             }
-            catch (Exception ) { }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
@@ -63,9 +67,10 @@ namespace University_Library_Management
 
                 string searchText = searchBox.Text;
 
-                string sqlQuery = "SELECT ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT, AVG(RATING) AS RATING FROM BOOK INNER JOIN BOOK_RATING " +
-                    "ON BOOK.ISBN = BOOK_RATING.ISBN" +
-                "where  TITLE  Like \'%"+  searchText +"%\' OR ISBN Like \'%"+  searchText +"%\' OR Author Like \'%"+  searchText + "%\' OR CATEGORY Like \'%" +  searchText +"%\'   ";
+                string sqlQuery = "SELECT BOOK.ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT, AVG(RATING) AS RATING FROM BOOK Left JOIN BOOK_RATING " +
+                    "ON BOOK.ISBN = BOOK_RATING.ISBN " +
+                "where  TITLE  Like \'%"+  searchText +"%\' OR BOOK.ISBN Like \'%"+  searchText +"%\' OR Author Like \'%"+  searchText + "%\' OR CATEGORY Like \'%" +  searchText +"%\'   "+
+                "GROUP BY BOOK.ISBN , TITLE , AUTHOR , CATEGORY , AMOUNT";
                 SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
                 cmd.Parameters.AddWithValue("@text", searchText);
 
@@ -76,7 +81,13 @@ namespace University_Library_Management
                 catalog.DataSource = dt;
                 _conn.Close();
             }
-            catch (Exception ) { }
+            catch (Exception ex)
+            {
+                _conn.Close();
+
+                MessageBox.Show(ex.Message);
+
+            }
 
         }
 
