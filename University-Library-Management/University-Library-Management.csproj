@@ -285,5 +285,8 @@
   <ItemGroup>
     <None Include="images\stanford-university-seal-seeklogo.com.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\front-view-books-with-white-background %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

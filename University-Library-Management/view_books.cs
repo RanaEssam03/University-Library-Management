@@ -63,7 +63,8 @@ namespace University_Library_Management
 
                 string searchText = searchBox.Text;
 
-                string sqlQuery = "SELECT ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT FROM BOOK " +
+                string sqlQuery = "SELECT ISBN, TITLE, AUTHOR ,CATEGORY, AMOUNT, AVG(RATING) AS RATING FROM BOOK INNER JOIN BOOK_RATING " +
+                    "ON BOOK.ISBN = BOOK_RATING.ISBN" +
                 "where  TITLE  Like \'%"+  searchText +"%\' OR ISBN Like \'%"+  searchText +"%\' OR Author Like \'%"+  searchText + "%\' OR CATEGORY Like \'%" +  searchText +"%\'   ";
                 SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
                 cmd.Parameters.AddWithValue("@text", searchText);

@@ -63,6 +63,16 @@ namespace University_Library_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap front_view_books_with_white_background__1_ {
+            get {
+                object obj = ResourceManager.GetObject("front-view-books-with-white-background (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap stanford_university {
             get {
                 object obj = ResourceManager.GetObject("stanford-university", resourceCulture);
