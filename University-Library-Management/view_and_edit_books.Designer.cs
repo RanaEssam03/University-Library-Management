@@ -89,13 +89,10 @@
             this.add_book.BackColor = System.Drawing.Color.Maroon;
             this.add_book.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_book.ForeColor = System.Drawing.SystemColors.Menu;
-            this.add_book.Location = new System.Drawing.Point(576, 390);
             this.add_book.Location = new System.Drawing.Point(310, 389);
             this.add_book.Name = "add_book";
             this.add_book.Size = new System.Drawing.Size(144, 34);
             this.add_book.TabIndex = 6;
-            this.add_book.Text = "Add Book";
-            this.add_book.UseVisualStyleBackColor = true;
             this.add_book.Text = "Add book";
             this.add_book.UseVisualStyleBackColor = false;
             this.add_book.Click += new System.EventHandler(this.add_book_Click);
@@ -105,7 +102,7 @@
             this.edit_book.BackColor = System.Drawing.Color.Maroon;
             this.edit_book.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edit_book.ForeColor = System.Drawing.SystemColors.Menu;
-            this.edit_book.Location = new System.Drawing.Point(361, 390);
+            this.edit_book.Location = new System.Drawing.Point(565, 389);
             this.edit_book.Name = "edit_book";
             this.edit_book.Size = new System.Drawing.Size(141, 34);
             this.edit_book.TabIndex = 7;
@@ -125,6 +122,19 @@
             this.back.Text = "<-Back";
             this.back.UseVisualStyleBackColor = false;
             this.back.Click += new System.EventHandler(this.back_Click);
+            // 
+            // delete_book
+            // 
+            this.delete_book.BackColor = System.Drawing.Color.Maroon;
+            this.delete_book.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete_book.ForeColor = System.Drawing.SystemColors.Menu;
+            this.delete_book.Location = new System.Drawing.Point(802, 389);
+            this.delete_book.Name = "delete_book";
+            this.delete_book.Size = new System.Drawing.Size(114, 34);
+            this.delete_book.TabIndex = 0;
+            this.delete_book.Text = "Delete";
+            this.delete_book.UseVisualStyleBackColor = false;
+            this.delete_book.Click += new System.EventHandler(this.delete_book_Click_1);
             // 
             // pictureBox1
             // 

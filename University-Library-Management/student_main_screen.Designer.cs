@@ -39,12 +39,12 @@
             this.personalInfo.BackColor = System.Drawing.Color.Maroon;
             this.personalInfo.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.personalInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.personalInfo.Location = new System.Drawing.Point(12, 142);
+            this.personalInfo.Location = new System.Drawing.Point(92, 184);
             this.personalInfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.personalInfo.Name = "personalInfo";
-            this.personalInfo.Size = new System.Drawing.Size(421, 155);
+            this.personalInfo.Size = new System.Drawing.Size(341, 113);
             this.personalInfo.TabIndex = 0;
-            this.personalInfo.Text = "Persoanl Info";
+            this.personalInfo.Text = "Personal Info";
             this.personalInfo.UseVisualStyleBackColor = false;
             this.personalInfo.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -53,10 +53,10 @@
             this.viewBooks.BackColor = System.Drawing.Color.Maroon;
             this.viewBooks.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewBooks.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.viewBooks.Location = new System.Drawing.Point(772, 142);
+            this.viewBooks.Location = new System.Drawing.Point(772, 184);
             this.viewBooks.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.viewBooks.Name = "viewBooks";
-            this.viewBooks.Size = new System.Drawing.Size(395, 155);
+            this.viewBooks.Size = new System.Drawing.Size(352, 113);
             this.viewBooks.TabIndex = 1;
             this.viewBooks.Text = "View Books";
             this.viewBooks.UseVisualStyleBackColor = false;
