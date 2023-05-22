@@ -36,6 +36,7 @@
             this.dt1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.dt2 = new System.Windows.Forms.DateTimePicker();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // email_input
@@ -111,16 +112,28 @@
             this.dt2.CustomFormat = "dd-MM-yyyy";
             this.dt2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dt2.Location = new System.Drawing.Point(239, 209);
+            this.dt2.MinDate = new System.DateTime(2023, 5, 21, 0, 0, 0, 0);
             this.dt2.Name = "dt2";
             this.dt2.Size = new System.Drawing.Size(114, 22);
             this.dt2.TabIndex = 16;
             this.dt2.ValueChanged += new System.EventHandler(this.dt2_ValueChanged);
+            // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.TabIndex = 17;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // add_visit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.dt2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dt1);
@@ -147,5 +160,6 @@
         private System.Windows.Forms.DateTimePicker dt1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dt2;
+        private System.Windows.Forms.Button back;
     }
 }

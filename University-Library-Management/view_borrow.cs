@@ -9,14 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace University_Library_Management
 {
-    public partial class view_visit : Form
+    public partial class view_borrow : Form
     {
         private SqlConnection _connection;
-        public view_visit()
+        public view_borrow()
         {
             InitializeComponent();
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
@@ -32,22 +31,22 @@ namespace University_Library_Management
             _connection = new SqlConnection(connString1);
         }
 
-        private void view_visit_Load(object sender, EventArgs e)
+        private void view_borrow_Load(object sender, EventArgs e)
         {
             try
             {
                 //open connection
                 _connection.Open();
-                string sqlQuery = "SELECT * FROM VISIT";
+                string sqlQuery = "SELECT * FROM BORROW";
                 SqlCommand command = new SqlCommand(sqlQuery, _connection);
-                    
+
                 SqlDataAdapter da = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dataGridView1.DataSource = dt;
 
                 _connection.Close();
-               
+
 
             }
             catch (Exception ex)
@@ -56,11 +55,11 @@ namespace University_Library_Management
             }
         }
 
-        private void add_visit_Click(object sender, EventArgs e)
+        private void add_borrow_Click(object sender, EventArgs e)
         {
-            Form add_visit = new add_visit();
+            Form form = new admin_borrow();
             Hide();
-            add_visit.Show();
+            form.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -30,6 +30,8 @@
         {
             this.view_visit = new System.Windows.Forms.Button();
             this.books_button = new System.Windows.Forms.Button();
+            this.borrow = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // view_visit
@@ -52,11 +54,33 @@
             this.books_button.UseVisualStyleBackColor = true;
             this.books_button.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // borrow
+            // 
+            this.borrow.Location = new System.Drawing.Point(486, 168);
+            this.borrow.Name = "borrow";
+            this.borrow.Size = new System.Drawing.Size(157, 74);
+            this.borrow.TabIndex = 3;
+            this.borrow.Text = "Borrow";
+            this.borrow.UseVisualStyleBackColor = true;
+            this.borrow.Click += new System.EventHandler(this.borrow_Click);
+            // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.TabIndex = 15;
+            this.back.Text = "Back";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // admin_main_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 436);
+            this.ClientSize = new System.Drawing.Size(740, 436);
+            this.Controls.Add(this.back);
+            this.Controls.Add(this.borrow);
             this.Controls.Add(this.books_button);
             this.Controls.Add(this.view_visit);
             this.Name = "admin_main_screen";
@@ -70,5 +94,7 @@
 
         private System.Windows.Forms.Button view_visit;
         private System.Windows.Forms.Button books_button;
+        private System.Windows.Forms.Button borrow;
+        private System.Windows.Forms.Button back;
     }
 }
