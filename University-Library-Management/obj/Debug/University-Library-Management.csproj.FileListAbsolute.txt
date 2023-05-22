@@ -109,3 +109,40 @@ C:\Users\Yusuf\Documents\GitHub\University-Library-Management\University-Library
 C:\Users\Yusuf\Documents\GitHub\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
 C:\Users\Yusuf\Documents\GitHub\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
 C:\Users\Yusuf\Documents\GitHub\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe.config
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.pdb
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.AssemblyReference.cache
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_book.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_visit.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_borrow.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_form.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_main_screen.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_in.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_up.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.choose_book.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.edit_book.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form1.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Properties.Resources.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_form.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_main_screen.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_in.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_upcs.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_info.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_password.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_info.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_and_edit_books.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_books.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_visit.resources
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.GenerateResource.cache
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_borrow.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_up.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.choose_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.edit_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_and_edit_books.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.BookRate.resources

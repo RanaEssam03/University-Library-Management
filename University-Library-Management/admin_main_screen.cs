@@ -46,5 +46,19 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void borrow_Click(object sender, EventArgs e)
+        {
+            Form form = new view_borrow();
+            Hide();
+            form.Show();
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Form form = new admin_sign_in();
+            Hide();
+            form.Show();
+        }
     }
 }
