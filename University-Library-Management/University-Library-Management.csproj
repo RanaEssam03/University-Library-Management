@@ -63,11 +63,6 @@
     </Compile>
     <Compile Include="admin_borrow.Designer.cs">
       <DependentUpon>admin_borrow.cs</DependentUpon>
-    <Compile Include="BookRate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BookRate.Designer.cs">
-      <DependentUpon>BookRate.cs</DependentUpon>
     </Compile>
     <Compile Include="choose_book.cs">
       <SubType>Form</SubType>
