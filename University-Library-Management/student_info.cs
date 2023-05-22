@@ -128,7 +128,7 @@ namespace University_Library_Management
 
 
 
-                    textBox4.Text = reader[1].ToString();
+                    textBox4.Text = Encryption.Hashstring(reader[1].ToString());
 
                 }
                 loadFirstGrid();

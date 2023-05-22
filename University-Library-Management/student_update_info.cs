@@ -44,11 +44,9 @@ namespace University_Library_Management
             if(reader.Read()) { 
                      first_name.Text = reader[2].ToString();
                      last_name.Text = reader[3].ToString();
-                        
-        
-                        year.Text = reader[5].ToString();
+                     year.Text = reader[5].ToString();
                  
-                        this.password.Text = reader[1].ToString();   
+                     this.password.Text = Encryption.Hashstring(reader[1].ToString());   
 
             }
             _conn.Close();

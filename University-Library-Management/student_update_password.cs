@@ -68,9 +68,10 @@ namespace University_Library_Management
         private void button1_Click(object sender, EventArgs e)
         {
             oldPsswordError.Text = string.Empty;
+
             newPasswordError.Text = string.Empty;
             oldPsswordError.Text = string.Empty;
-            if (currentPassword.Text != this._oldPassword)
+            if (Encryption.Hashstring(currentPassword.Text) != this._oldPassword)
             {
                 oldPsswordError.Text = "Wrong Password";
             }
@@ -78,7 +79,7 @@ namespace University_Library_Management
             {
                 newPasswordError.Text = "Passwords do NOT match";
             }
-            if(newPassword.Text ==  confirmNewPassword.Text && currentPassword.Text == this._oldPassword)
+            if(newPassword.Text ==  confirmNewPassword.Text && Encryption.Hashstring(currentPassword.Text) == this._oldPassword)
             {
                 if(newPassword.Text.Length < 8)
                 {
@@ -90,7 +91,9 @@ namespace University_Library_Management
                     string sqlQuery = "UPDATE \"USER\" SET PASSWORD = @password Where EMAIL = @email ";
                     _conn.Open();
                     SqlCommand cmd = new SqlCommand(sqlQuery, _conn);
-                    cmd.Parameters.AddWithValue("@password", newPassword.Text);
+
+                    
+                    cmd.Parameters.AddWithValue("@password", Encryption.Hashstring(newPassword.Text));
                     cmd.Parameters.AddWithValue("@email", _email);
                     cmd.ExecuteNonQuery();
                     _conn.Close();

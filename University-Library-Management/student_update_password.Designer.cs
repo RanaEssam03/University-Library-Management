@@ -134,7 +134,7 @@
             // updatePassword
             // 
             this.updatePassword.BackColor = System.Drawing.Color.Maroon;
-            this.updatePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updatePassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updatePassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.updatePassword.Location = new System.Drawing.Point(578, 354);
             this.updatePassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
