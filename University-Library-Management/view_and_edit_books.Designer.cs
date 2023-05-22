@@ -34,6 +34,7 @@
             this.add_book = new System.Windows.Forms.Button();
             this.edit_book = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
+            this.delete_book = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.catalog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,9 +90,12 @@
             this.add_book.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_book.ForeColor = System.Drawing.SystemColors.Menu;
             this.add_book.Location = new System.Drawing.Point(576, 390);
+            this.add_book.Location = new System.Drawing.Point(310, 389);
             this.add_book.Name = "add_book";
-            this.add_book.Size = new System.Drawing.Size(169, 34);
+            this.add_book.Size = new System.Drawing.Size(144, 34);
             this.add_book.TabIndex = 6;
+            this.add_book.Text = "Add Book";
+            this.add_book.UseVisualStyleBackColor = true;
             this.add_book.Text = "Add book";
             this.add_book.UseVisualStyleBackColor = false;
             this.add_book.Click += new System.EventHandler(this.add_book_Click);
@@ -103,7 +107,7 @@
             this.edit_book.ForeColor = System.Drawing.SystemColors.Menu;
             this.edit_book.Location = new System.Drawing.Point(361, 390);
             this.edit_book.Name = "edit_book";
-            this.edit_book.Size = new System.Drawing.Size(169, 34);
+            this.edit_book.Size = new System.Drawing.Size(141, 34);
             this.edit_book.TabIndex = 7;
             this.edit_book.Text = "Edit Book";
             this.edit_book.UseVisualStyleBackColor = false;
@@ -138,6 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1179, 450);
+            this.Controls.Add(this.delete_book);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.back);
             this.Controls.Add(this.edit_book);
@@ -163,6 +168,7 @@
         private System.Windows.Forms.Button add_book;
         public System.Windows.Forms.Button edit_book;
         private System.Windows.Forms.Button back;
+        private System.Windows.Forms.Button delete_book;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

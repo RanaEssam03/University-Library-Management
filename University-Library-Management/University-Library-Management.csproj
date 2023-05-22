@@ -76,6 +76,12 @@
     <Compile Include="choose_book.Designer.cs">
       <DependentUpon>choose_book.cs</DependentUpon>
     </Compile>
+    <Compile Include="delete_book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_book.Designer.cs">
+      <DependentUpon>delete_book.cs</DependentUpon>
+    </Compile>
     <Compile Include="edit_book.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="choose_book.resx">
       <DependentUpon>choose_book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_book.resx">
+      <DependentUpon>delete_book.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="edit_book.resx">
       <DependentUpon>edit_book.cs</DependentUpon>

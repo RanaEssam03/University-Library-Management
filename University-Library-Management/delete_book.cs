@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace University_Library_Management
 {
-    public partial class choose_book : Form
+    public partial class delete_book : Form
     {
         private SqlConnection _connection;
         private bool _validISBN = false;
-        public choose_book()
+        public delete_book()
         {
             InitializeComponent();
             var datasource = @"nour-fcai-assignments.database.windows.net";//your server
@@ -28,28 +28,21 @@ namespace University_Library_Management
             //your connection string 
             string connString1 = @"Data Source=" + datasource + ";Initial Catalog="
                         + database + ";Persist Security Info=True;User ID=" + username + ";Password=" + password;
-            this._connection = new SqlConnection(connString1);
 
 
+            _connection = new SqlConnection(connString1);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void back_Click(object sender, EventArgs e)
         {
-
+            Form form = new view_and_edit_books();
+            Hide();
+            form.Show();
         }
 
-        private void edit_book_Click(object sender, EventArgs e)
+        private void ISBNfield_TextChanged(object sender, EventArgs e)
         {
-            if (_validISBN)
-            {
-                Form form = new edit_book(ISBNfield.Text);
-                Hide();
-                form.Show();
-            }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+            ISBNfield.Text = ((TextBox)sender).Text;
             Regex rg = new Regex(@"^[0-9]{13}$");
             _validISBN = rg.IsMatch(ISBNfield.Text);
             if (!_validISBN)
@@ -63,27 +56,39 @@ namespace University_Library_Management
                 string sqlQuery = "SELECT * FROM [BOOK] WHERE ISBN = @isbn";
                 SqlCommand Command = new SqlCommand(sqlQuery, _connection);
                 Command.Parameters.AddWithValue("@isbn", ISBNfield.Text);
-
-                SqlDataReader reader = Command.ExecuteReader();
-                if (!reader.Read())
-                {
-                    _validISBN = false;
-                    error_text.Text = "This ISBN is not found in the system";
-                }
+                SqlDataReader reader = Command.ExecuteReader();             
                 _connection.Close();
             }
         }
 
-        private void back_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            Form form = new view_and_edit_books();
-            Hide();
-            form.Show();
+
         }
 
-        private void error_text_Click(object sender, EventArgs e)
+        private void edit_book_Click(object sender, EventArgs e)
         {
+            if (_validISBN)
+            {
+                _connection.Open();
+                try
+                {
+                    string sqlInsert = "DELETE FROM [BOOK] WHERE ISBN = @isbn";
+                    SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
+                    sqlCommand.Parameters.AddWithValue("@isbn", ISBNfield.Text);                   
+                    sqlCommand.ExecuteNonQuery();
+                    _connection.Close();
+                    Form form = new view_and_edit_books();
+                    Hide();
+                    form.Show();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
 
+                _connection.Close();
+            }
         }
     }
 }

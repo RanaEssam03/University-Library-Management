@@ -51,7 +51,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(199, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Please enter book ISBN";
+            this.label1.Text = "Enter book ISBN";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // edit_book
@@ -79,6 +79,7 @@
             this.error_text.Size = new System.Drawing.Size(0, 16);
             this.error_text.TabIndex = 14;
             this.error_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.error_text.Click += new System.EventHandler(this.error_text_Click);
             // 
             // back
             // 
