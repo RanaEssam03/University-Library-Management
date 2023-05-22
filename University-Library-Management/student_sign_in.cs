@@ -35,9 +35,9 @@ namespace University_Library_Management
         private void button1_Click(object sender, EventArgs e)
         {
            
+            _connection.Open();
             try
             {
-                _connection.Open();
                 string sqlQuery = "SELECT PASSWORD FROM \"USER\" WHERE EMAIL = @email AND PASSWORD = @password";
                 SqlCommand Command = new SqlCommand(sqlQuery, _connection);
                 Command.Parameters.AddWithValue("@email", email.Text);
@@ -57,12 +57,12 @@ namespace University_Library_Management
                     error.Text = "Invalid credentials";
 
                 }
-                _connection.Close();
             }
             catch(Exception )
             {
 
             }
+            _connection.Close();
 
         }
 

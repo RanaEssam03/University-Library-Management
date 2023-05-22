@@ -77,12 +77,12 @@ namespace University_Library_Management
                 flag = false;
                 emailError.Text = "Invalid Email";
             }
-
+            _connection.Close();
             if (flag)
             {
+                _connection.Open();
                 try
                 {
-                    _connection.Open();
                     string sqlInsert = "INSERT INTO \"USER\"(EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, ROLE)" +
                         "VALUES(@email, @password, @first_name, @last_name, \'Student\')";
                     SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
@@ -92,7 +92,6 @@ namespace University_Library_Management
                     sqlCommand.Parameters.AddWithValue("@last_name", last_name_input.Text);
 
                     sqlCommand.ExecuteNonQuery();
-                    _connection.Close();
 
                     Form form = new student_sign_in();
                     Hide();
@@ -102,6 +101,7 @@ namespace University_Library_Management
                 {
                     Console.WriteLine("Error: " + ex.Message);
                 }
+                _connection.Close();
             }
             _connection.Close();
         }

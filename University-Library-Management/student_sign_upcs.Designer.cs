@@ -66,6 +66,7 @@
             this.password_input.Name = "password_input";
             this.password_input.Size = new System.Drawing.Size(267, 22);
             this.password_input.TabIndex = 1;
+            this.password_input.UseSystemPasswordChar = true;
             // 
             // button1
             // 
@@ -153,6 +154,7 @@
             this.confirm_password_input.Name = "confirm_password_input";
             this.confirm_password_input.Size = new System.Drawing.Size(267, 22);
             this.confirm_password_input.TabIndex = 9;
+            this.confirm_password_input.UseSystemPasswordChar = true;
             // 
             // label5
             // 
