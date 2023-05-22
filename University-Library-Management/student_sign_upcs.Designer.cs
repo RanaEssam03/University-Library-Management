@@ -70,13 +70,13 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Menu;
             this.button1.Location = new System.Drawing.Point(572, 336);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 46);
+            this.button1.Size = new System.Drawing.Size(138, 46);
             this.button1.TabIndex = 2;
             this.button1.Text = "Sign Up";
             this.button1.UseVisualStyleBackColor = false;
@@ -104,11 +104,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label1.Location = new System.Drawing.Point(264, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 25);
+            this.label1.Size = new System.Drawing.Size(98, 22);
             this.label1.TabIndex = 5;
             this.label1.Text = "First Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -116,33 +116,33 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label2.Location = new System.Drawing.Point(264, 182);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 25);
+            this.label2.Size = new System.Drawing.Size(57, 22);
             this.label2.TabIndex = 6;
             this.label2.Text = "Email";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label3.Location = new System.Drawing.Point(264, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 25);
+            this.label3.Size = new System.Drawing.Size(94, 22);
             this.label3.TabIndex = 7;
             this.label3.Text = "Last Name";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label4.Location = new System.Drawing.Point(264, 229);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 25);
+            this.label4.Size = new System.Drawing.Size(88, 22);
             this.label4.TabIndex = 8;
             this.label4.Text = "Password";
             // 
@@ -159,18 +159,19 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label5.Location = new System.Drawing.Point(264, 278);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 25);
+            this.label5.Size = new System.Drawing.Size(158, 22);
             this.label5.TabIndex = 10;
             this.label5.Text = "Confirm Password";
             // 
             // passwordError
             // 
             this.passwordError.AutoSize = true;
-            this.passwordError.Location = new System.Drawing.Point(844, 287);
+            this.passwordError.ForeColor = System.Drawing.Color.Red;
+            this.passwordError.Location = new System.Drawing.Point(844, 282);
             this.passwordError.Name = "passwordError";
             this.passwordError.Size = new System.Drawing.Size(99, 16);
             this.passwordError.TabIndex = 11;
@@ -180,7 +181,8 @@
             // emailError
             // 
             this.emailError.AutoSize = true;
-            this.emailError.Location = new System.Drawing.Point(844, 191);
+            this.emailError.ForeColor = System.Drawing.Color.Red;
+            this.emailError.Location = new System.Drawing.Point(844, 182);
             this.emailError.Name = "emailError";
             this.emailError.Size = new System.Drawing.Size(73, 16);
             this.emailError.TabIndex = 12;
@@ -202,9 +204,9 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.BackColor = System.Drawing.Color.Maroon;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Menu;
             this.button2.Location = new System.Drawing.Point(3, 1);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
@@ -217,18 +219,20 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(565, 11);
+            this.label6.Location = new System.Drawing.Point(583, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 36);
+            this.label6.Size = new System.Drawing.Size(127, 36);
             this.label6.TabIndex = 15;
             this.label6.Text = "Sign Up ";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::University_Library_Management.Properties.Resources.stanford_university_small;
-            this.pictureBox1.Location = new System.Drawing.Point(1047, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(1015, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 154);
             this.pictureBox1.TabIndex = 16;

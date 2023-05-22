@@ -40,12 +40,13 @@
             // 
             // search
             // 
-            this.search.BackColor = System.Drawing.SystemColors.Desktop;
-            this.search.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.search.Location = new System.Drawing.Point(768, 55);
+            this.search.BackColor = System.Drawing.Color.Maroon;
+            this.search.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search.ForeColor = System.Drawing.SystemColors.Menu;
+            this.search.Location = new System.Drawing.Point(683, 52);
             this.search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(171, 38);
+            this.search.Size = new System.Drawing.Size(125, 33);
             this.search.TabIndex = 0;
             this.search.Text = "Search";
             this.search.UseVisualStyleBackColor = false;
@@ -54,10 +55,11 @@
             // searchBox
             // 
             this.searchBox.BackColor = System.Drawing.SystemColors.Menu;
-            this.searchBox.Location = new System.Drawing.Point(299, 63);
+            this.searchBox.Location = new System.Drawing.Point(251, 52);
             this.searchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchBox.Multiline = true;
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(384, 22);
+            this.searchBox.Size = new System.Drawing.Size(384, 33);
             this.searchBox.TabIndex = 1;
             this.searchBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -72,19 +74,19 @@
             this.catalog.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.catalog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.catalog.GridColor = System.Drawing.SystemColors.Desktop;
-            this.catalog.Location = new System.Drawing.Point(232, 130);
+            this.catalog.Location = new System.Drawing.Point(89, 118);
             this.catalog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.catalog.Name = "catalog";
             this.catalog.RowHeadersWidth = 51;
             this.catalog.RowTemplate.Height = 24;
-            this.catalog.Size = new System.Drawing.Size(733, 273);
+            this.catalog.Size = new System.Drawing.Size(862, 273);
             this.catalog.TabIndex = 2;
             this.catalog.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.catalog_CellContentClick);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.ForeColor = System.Drawing.SystemColors.Menu;
             this.button1.Location = new System.Drawing.Point(1, -1);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -97,7 +99,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::University_Library_Management.Properties.Resources.stanford_university_small;
-            this.pictureBox1.Location = new System.Drawing.Point(1035, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1021, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(143, 155);
             this.pictureBox1.TabIndex = 11;
@@ -105,12 +108,16 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1046, 379);
+            this.button2.BackColor = System.Drawing.Color.Maroon;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Menu;
+            this.button2.Location = new System.Drawing.Point(1030, 371);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 40);
+            this.button2.Size = new System.Drawing.Size(120, 50);
             this.button2.TabIndex = 12;
             this.button2.Text = "Add Rate";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // view_books

@@ -74,7 +74,6 @@ namespace University_Library_Management
             SqlCommand Command = new SqlCommand(sqlQuery, _connection);
             Command.Parameters.AddWithValue("@ISBN", isbn);
             _connection.Open();
-            MessageBox.Show("HEREEe");
             SqlDataReader reader = Command.ExecuteReader();
 
             if (!reader.Read())
@@ -122,6 +121,18 @@ namespace University_Library_Management
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new view_books(email);
+            Hide();
+            form.Show();
         }
     }
 }

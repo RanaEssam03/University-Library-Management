@@ -32,7 +32,6 @@
             this.ISBNfield = new System.Windows.Forms.TextBox();
             this.edit_book = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.error_text = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -67,22 +66,13 @@
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Location = new System.Drawing.Point(12, 14);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(75, 23);
             this.back.TabIndex = 18;
             this.back.Text = "Back";
             this.back.UseVisualStyleBackColor = true;
             this.back.Click += new System.EventHandler(this.back_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "label2";
             // 
             // error_text
             // 
@@ -99,7 +89,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.error_text);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.back);
             this.Controls.Add(this.edit_book);
             this.Controls.Add(this.label1);
@@ -117,7 +106,6 @@
         private System.Windows.Forms.TextBox ISBNfield;
         public System.Windows.Forms.Button edit_book;
         private System.Windows.Forms.Button back;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label error_text;
     }
 }

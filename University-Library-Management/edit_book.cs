@@ -57,11 +57,6 @@ namespace University_Library_Management
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void back_Click(object sender, EventArgs e)
         {
             Form form = new choose_book();

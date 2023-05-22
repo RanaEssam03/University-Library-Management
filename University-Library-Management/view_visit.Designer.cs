@@ -39,7 +39,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.DimGray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(160, 50);
+            this.dataGridView1.Location = new System.Drawing.Point(373, 37);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -49,29 +49,36 @@
             // 
             // add_visit
             // 
-            this.add_visit.Location = new System.Drawing.Point(314, 401);
+            this.add_visit.BackColor = System.Drawing.Color.Maroon;
+            this.add_visit.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_visit.ForeColor = System.Drawing.SystemColors.Menu;
+            this.add_visit.Location = new System.Drawing.Point(527, 384);
             this.add_visit.Name = "add_visit";
-            this.add_visit.Size = new System.Drawing.Size(157, 37);
+            this.add_visit.Size = new System.Drawing.Size(157, 41);
             this.add_visit.TabIndex = 2;
             this.add_visit.Text = "Add a Visit";
-            this.add_visit.UseVisualStyleBackColor = true;
+            this.add_visit.UseVisualStyleBackColor = false;
             this.add_visit.Click += new System.EventHandler(this.add_visit_Click);
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.BackColor = System.Drawing.Color.Maroon;
+            this.back.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.SystemColors.Menu;
+            this.back.Location = new System.Drawing.Point(2, 2);
             this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(75, 23);
+            this.back.Size = new System.Drawing.Size(75, 33);
             this.back.TabIndex = 15;
-            this.back.Text = "Back";
-            this.back.UseVisualStyleBackColor = true;
+            this.back.Text = "<-Back";
+            this.back.UseVisualStyleBackColor = false;
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // view_visit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ClientSize = new System.Drawing.Size(1179, 450);
             this.Controls.Add(this.back);
             this.Controls.Add(this.add_visit);
             this.Controls.Add(this.dataGridView1);

@@ -149,5 +149,6 @@ D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Li
 D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_borrow.resources
 D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.BookRate.resources
 D:\FCI\Year 2 Sem 2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_borrow.resources
-C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.BookRate.resources
-C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.delete_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_borrow.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_borrow.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.delete_book.resources

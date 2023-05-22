@@ -104,5 +104,12 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void delete_book_Click_1(object sender, EventArgs e)
+        {
+            Form form = new delete_book();
+            Hide();
+            form.Show();
+        }
     }
 }
