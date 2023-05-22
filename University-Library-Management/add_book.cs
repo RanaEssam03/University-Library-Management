@@ -61,7 +61,7 @@ namespace University_Library_Management
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-
+            publicationYear.Value = ((DateTimePicker)sender).Value;
         }
 
         private void authorField_TextChanged(object sender, EventArgs e)
@@ -166,6 +166,7 @@ namespace University_Library_Management
 
         private void amountField_ValueChanged(object sender, EventArgs e)
         {
+            amountField.Value = ((NumericUpDown)sender).Value;
 
         }
     }
