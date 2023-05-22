@@ -34,6 +34,7 @@
             this.add_book = new System.Windows.Forms.Button();
             this.edit_book = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
+            this.delete_book = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.catalog)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,19 +82,19 @@
             // 
             // add_book
             // 
-            this.add_book.Location = new System.Drawing.Point(393, 389);
+            this.add_book.Location = new System.Drawing.Point(310, 389);
             this.add_book.Name = "add_book";
-            this.add_book.Size = new System.Drawing.Size(169, 34);
+            this.add_book.Size = new System.Drawing.Size(144, 34);
             this.add_book.TabIndex = 6;
-            this.add_book.Text = "Add book";
+            this.add_book.Text = "Add Book";
             this.add_book.UseVisualStyleBackColor = true;
             this.add_book.Click += new System.EventHandler(this.add_book_Click);
             // 
             // edit_book
             // 
-            this.edit_book.Location = new System.Drawing.Point(178, 389);
+            this.edit_book.Location = new System.Drawing.Point(98, 389);
             this.edit_book.Name = "edit_book";
-            this.edit_book.Size = new System.Drawing.Size(169, 34);
+            this.edit_book.Size = new System.Drawing.Size(141, 34);
             this.edit_book.TabIndex = 7;
             this.edit_book.Text = "Edit Book";
             this.edit_book.UseVisualStyleBackColor = true;
@@ -109,11 +110,22 @@
             this.back.UseVisualStyleBackColor = true;
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
+            // delete_book
+            // 
+            this.delete_book.Location = new System.Drawing.Point(523, 389);
+            this.delete_book.Name = "delete_book";
+            this.delete_book.Size = new System.Drawing.Size(144, 34);
+            this.delete_book.TabIndex = 24;
+            this.delete_book.Text = "Delete Book";
+            this.delete_book.UseVisualStyleBackColor = true;
+            this.delete_book.Click += new System.EventHandler(this.delete_book_Click);
+            // 
             // view_and_edit_books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.delete_book);
             this.Controls.Add(this.back);
             this.Controls.Add(this.edit_book);
             this.Controls.Add(this.add_book);
@@ -137,5 +149,6 @@
         private System.Windows.Forms.Button add_book;
         public System.Windows.Forms.Button edit_book;
         private System.Windows.Forms.Button back;
+        private System.Windows.Forms.Button delete_book;
     }
 }
