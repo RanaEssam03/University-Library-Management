@@ -90,5 +90,12 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new BookRate(_email);
+            Hide();
+            form.Show();
+        }
     }
 }

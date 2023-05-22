@@ -82,3 +82,9 @@ C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\Universi
 C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
 C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
 C:\Users\Mohannad\Desktop\2nd Year\2nd\DB\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_borrow.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_up.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.choose_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.edit_book.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_and_edit_books.resources
+D:\FCAI\Level2 second term\data_base\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.BookRate.resources
