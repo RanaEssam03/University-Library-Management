@@ -78,9 +78,9 @@
             this.Password.Location = new System.Drawing.Point(412, 254);
             this.Password.Multiline = true;
             this.Password.Name = "Password";
+            this.Password.PasswordChar = '*';
             this.Password.Size = new System.Drawing.Size(399, 33);
             this.Password.TabIndex = 3;
-            this.Password.UseSystemPasswordChar = true;
             this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
             // confirmPassword

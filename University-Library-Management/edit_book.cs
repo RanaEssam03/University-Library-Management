@@ -129,5 +129,10 @@ namespace University_Library_Management
                 _connection.Close();
             }
         }
+
+        private void amountField_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

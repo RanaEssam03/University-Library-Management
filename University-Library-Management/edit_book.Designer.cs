@@ -132,6 +132,7 @@
             this.amountField.Name = "amountField";
             this.amountField.Size = new System.Drawing.Size(63, 22);
             this.amountField.TabIndex = 30;
+            this.amountField.ValueChanged += new System.EventHandler(this.amountField_ValueChanged);
             // 
             // publicationYear
             // 

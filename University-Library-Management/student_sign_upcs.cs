@@ -144,5 +144,10 @@ namespace University_Library_Management
         {
 
         }
+
+        private void password_input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

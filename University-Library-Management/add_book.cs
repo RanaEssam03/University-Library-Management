@@ -131,8 +131,7 @@ namespace University_Library_Management
                 _connection.Open();
                 try
                 {
-                    string sqlInsert = "INSERT INTO [BOOK] (ISBN, TITLE, AUTHOR, CATEGORY, PUBLICATION_YEAR, AMOUNT)" +
-                        "VALUES(@isbn, @title, @author, @category, @year, @amount)";
+                    string sqlInsert = "INSERT INTO [BOOK] (ISBN, TITLE, AUTHOR, CATEGORY, PUBLICATION_YEAR, AMOUNT) VALUES (@isbn, @title, @author, @category, @year, @amount)";
                     SqlCommand sqlCommand = new SqlCommand(sqlInsert, _connection);
                     sqlCommand.Parameters.AddWithValue("@isbn", ISBNfield.Text);
                     sqlCommand.Parameters.AddWithValue("@title", title_field.Text);
