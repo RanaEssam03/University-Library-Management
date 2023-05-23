@@ -60,5 +60,12 @@ namespace University_Library_Management
             Hide();
             form.Show();
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            Form form = new Form2();
+            Hide();
+            form.Show();    
+        }
     }
 }

@@ -33,6 +33,7 @@
             this.borrow = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,7 +42,7 @@
             this.view_visit.BackColor = System.Drawing.Color.Maroon;
             this.view_visit.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.view_visit.ForeColor = System.Drawing.SystemColors.Menu;
-            this.view_visit.Location = new System.Drawing.Point(243, 188);
+            this.view_visit.Location = new System.Drawing.Point(90, 188);
             this.view_visit.Name = "view_visit";
             this.view_visit.Size = new System.Drawing.Size(137, 69);
             this.view_visit.TabIndex = 0;
@@ -54,7 +55,7 @@
             this.books_button.BackColor = System.Drawing.Color.Maroon;
             this.books_button.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.books_button.ForeColor = System.Drawing.SystemColors.Menu;
-            this.books_button.Location = new System.Drawing.Point(472, 188);
+            this.books_button.Location = new System.Drawing.Point(565, 188);
             this.books_button.Name = "books_button";
             this.books_button.Size = new System.Drawing.Size(137, 69);
             this.books_button.TabIndex = 2;
@@ -67,7 +68,7 @@
             this.borrow.BackColor = System.Drawing.Color.Maroon;
             this.borrow.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.borrow.ForeColor = System.Drawing.SystemColors.Menu;
-            this.borrow.Location = new System.Drawing.Point(695, 188);
+            this.borrow.Location = new System.Drawing.Point(839, 188);
             this.borrow.Name = "borrow";
             this.borrow.Size = new System.Drawing.Size(137, 69);
             this.borrow.TabIndex = 3;
@@ -96,12 +97,26 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Menu;
+            this.button1.Location = new System.Drawing.Point(321, 188);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 69);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Statistics";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // admin_main_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1032, 422);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.back);
             this.Controls.Add(this.borrow);
             this.Controls.Add(this.books_button);
@@ -123,5 +138,6 @@
         private System.Windows.Forms.Button borrow;
         private System.Windows.Forms.Button back;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

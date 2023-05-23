@@ -128,7 +128,7 @@ namespace University_Library_Management
 
 
 
-                    textBox4.Text = Encryption.Hashstring(reader[1].ToString());
+                    textBox4.Text = reader[5].ToString();
 
                 }
                 loadFirstGrid();
@@ -163,6 +163,11 @@ namespace University_Library_Management
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

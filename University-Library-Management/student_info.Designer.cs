@@ -87,7 +87,6 @@
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.PasswordChar = '*';
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(238, 33);
             this.textBox4.TabIndex = 3;
@@ -133,9 +132,10 @@
             this.label4.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label4.Location = new System.Drawing.Point(109, 307);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 22);
+            this.label4.Size = new System.Drawing.Size(47, 22);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Password";
+            this.label4.Text = "Year";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dataGridView1
             // 

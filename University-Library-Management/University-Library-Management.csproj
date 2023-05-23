@@ -170,6 +170,12 @@
     <Compile Include="admin_sign_in.Designer.cs">
       <DependentUpon>admin_sign_in.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
@@ -214,6 +220,16 @@
     </Compile>
     <Compile Include="student_info.Designer.cs">
       <DependentUpon>student_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UniversityLibrarySystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UniversityLibrarySystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UniversityLibrarySystemDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="view_and_edit_books.cs">
       <SubType>Form</SubType>
@@ -275,6 +291,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -285,6 +304,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <EmbeddedResource Include="Report6.rdlc" />
+    <EmbeddedResource Include="Report7.rdlc" />
+    <EmbeddedResource Include="Report8.rdlc" />
     <EmbeddedResource Include="student_form.resx">
       <DependentUpon>student_form.cs</DependentUpon>
     </EmbeddedResource>
@@ -328,6 +354,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UniversityLibrarySystemDataSet.xsc">
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UniversityLibrarySystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet.xss">
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet1.xsc">
+      <DependentUpon>UniversityLibrarySystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UniversityLibrarySystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet1.xss">
+      <DependentUpon>UniversityLibrarySystemDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

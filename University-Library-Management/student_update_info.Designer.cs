@@ -32,13 +32,11 @@
             this.first_name = new System.Windows.Forms.TextBox();
             this.last_name = new System.Windows.Forms.TextBox();
             this.year = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.firstNameError = new System.Windows.Forms.Label();
@@ -90,19 +88,6 @@
             this.year.Name = "year";
             this.year.Size = new System.Drawing.Size(303, 33);
             this.year.TabIndex = 3;
-            // 
-            // password
-            // 
-            this.password.BackColor = System.Drawing.SystemColors.Menu;
-            this.password.Enabled = false;
-            this.password.Location = new System.Drawing.Point(500, 318);
-            this.password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.password.Multiline = true;
-            this.password.Name = "password";
-            this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(303, 33);
-            this.password.TabIndex = 4;
-            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // label1
             // 
@@ -163,23 +148,12 @@
             this.label5.Text = "First Name";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label6.Location = new System.Drawing.Point(269, 318);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 22);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Password";
-            // 
             // linkLabel1
             // 
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Teal;
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel1.Location = new System.Drawing.Point(749, 353);
+            this.linkLabel1.Location = new System.Drawing.Point(599, 318);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(122, 16);
             this.linkLabel1.TabIndex = 11;
@@ -270,13 +244,11 @@
             this.Controls.Add(this.firstNameError);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.password);
             this.Controls.Add(this.year);
             this.Controls.Add(this.last_name);
             this.Controls.Add(this.first_name);
@@ -297,13 +269,11 @@
         private System.Windows.Forms.TextBox first_name;
         private System.Windows.Forms.TextBox last_name;
         private System.Windows.Forms.TextBox year;
-        private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label firstNameError;

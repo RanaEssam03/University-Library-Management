@@ -49,7 +49,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(190, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 22);
+            this.label1.Size = new System.Drawing.Size(145, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Enter book ISBN";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -107,6 +107,7 @@
             this.Controls.Add(this.ISBNfield);
             this.Name = "choose_book";
             this.Text = "choose_book";
+            this.Load += new System.EventHandler(this.choose_book_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
