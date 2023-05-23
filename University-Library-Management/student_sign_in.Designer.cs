@@ -126,11 +126,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label4.Location = new System.Drawing.Point(553, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 38);
+            this.label4.Size = new System.Drawing.Size(110, 36);
             this.label4.TabIndex = 7;
             this.label4.Text = "Sign In";
             // 
