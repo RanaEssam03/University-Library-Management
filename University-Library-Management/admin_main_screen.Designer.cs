@@ -39,7 +39,7 @@
             // view_visit
             // 
             this.view_visit.BackColor = System.Drawing.Color.Maroon;
-            this.view_visit.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.view_visit.Font = new System.Drawing.Font("Times New Roman", 17.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.view_visit.ForeColor = System.Drawing.SystemColors.Menu;
             this.view_visit.Location = new System.Drawing.Point(243, 188);
             this.view_visit.Name = "view_visit";
@@ -52,7 +52,7 @@
             // books_button
             // 
             this.books_button.BackColor = System.Drawing.Color.Maroon;
-            this.books_button.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.books_button.Font = new System.Drawing.Font("Times New Roman", 17.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.books_button.ForeColor = System.Drawing.SystemColors.Menu;
             this.books_button.Location = new System.Drawing.Point(472, 188);
             this.books_button.Name = "books_button";
@@ -65,7 +65,7 @@
             // borrow
             // 
             this.borrow.BackColor = System.Drawing.Color.Maroon;
-            this.borrow.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.borrow.Font = new System.Drawing.Font("Times New Roman", 17.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.borrow.ForeColor = System.Drawing.SystemColors.Menu;
             this.borrow.Location = new System.Drawing.Point(695, 188);
             this.borrow.Name = "borrow";
@@ -98,7 +98,7 @@
             // 
             // admin_main_screen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1032, 422);

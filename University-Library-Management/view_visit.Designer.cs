@@ -37,13 +37,14 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DimGray;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(373, 37);
+            this.dataGridView1.Location = new System.Drawing.Point(280, 30);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(472, 327);
+            this.dataGridView1.Size = new System.Drawing.Size(354, 266);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -52,9 +53,10 @@
             this.add_visit.BackColor = System.Drawing.Color.Maroon;
             this.add_visit.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_visit.ForeColor = System.Drawing.SystemColors.Menu;
-            this.add_visit.Location = new System.Drawing.Point(527, 384);
+            this.add_visit.Location = new System.Drawing.Point(395, 312);
+            this.add_visit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.add_visit.Name = "add_visit";
-            this.add_visit.Size = new System.Drawing.Size(157, 41);
+            this.add_visit.Size = new System.Drawing.Size(118, 33);
             this.add_visit.TabIndex = 2;
             this.add_visit.Text = "Add a Visit";
             this.add_visit.UseVisualStyleBackColor = false;
@@ -66,8 +68,9 @@
             this.back.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back.ForeColor = System.Drawing.SystemColors.Menu;
             this.back.Location = new System.Drawing.Point(2, 2);
+            this.back.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(75, 33);
+            this.back.Size = new System.Drawing.Size(56, 27);
             this.back.TabIndex = 15;
             this.back.Text = "<-Back";
             this.back.UseVisualStyleBackColor = false;
@@ -75,13 +78,14 @@
             // 
             // view_visit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(1179, 450);
+            this.ClientSize = new System.Drawing.Size(884, 366);
             this.Controls.Add(this.back);
             this.Controls.Add(this.add_visit);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "view_visit";
             this.Text = "view_visit";
             this.Load += new System.EventHandler(this.view_visit_Load);

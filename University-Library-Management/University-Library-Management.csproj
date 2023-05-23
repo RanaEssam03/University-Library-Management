@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportViewer.VS2015.WinForms.12.0.2.2402\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,6 +73,12 @@
     </Compile>
     <Compile Include="BookRate.Designer.cs">
       <DependentUpon>BookRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_report.Designer.cs">
+      <DependentUpon>Book_report.cs</DependentUpon>
     </Compile>
     <Compile Include="choose_book.cs">
       <SubType>Form</SubType>
@@ -163,6 +173,11 @@
     <Compile Include="student_info.Designer.cs">
       <DependentUpon>student_info.cs</DependentUpon>
     </Compile>
+    <Compile Include="UniversityLibrarySystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="view_and_edit_books.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +226,9 @@
     <EmbeddedResource Include="BookRate.resx">
       <DependentUpon>BookRate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Book_report.resx">
+      <DependentUpon>Book_report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="choose_book.resx">
       <DependentUpon>choose_book.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +251,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
     <EmbeddedResource Include="student_form.resx">
       <DependentUpon>student_form.cs</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +286,7 @@
     <EmbeddedResource Include="view_visit.resx">
       <DependentUpon>view_visit.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -275,6 +296,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UniversityLibrarySystemDataSet.xsc">
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UniversityLibrarySystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UniversityLibrarySystemDataSet.xss">
+      <DependentUpon>UniversityLibrarySystemDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
