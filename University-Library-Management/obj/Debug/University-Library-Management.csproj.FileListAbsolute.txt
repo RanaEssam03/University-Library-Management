@@ -187,3 +187,40 @@ D:\FCI\Year_2_Sem_2\DataBase\University-Library-Management\University-Library-Ma
 D:\FCI\Year_2_Sem_2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
 D:\FCI\Year_2_Sem_2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
 D:\FCI\Year_2_Sem_2\DataBase\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe.config
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.exe
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\bin\Debug\University-Library-Management.pdb
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.AssemblyReference.cache
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.SuggestedBindingRedirects.cache
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_book.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.add_visit.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_borrow.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_form.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_main_screen.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_in.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.admin_sign_up.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.BookRate.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.choose_book.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.delete_book.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.edit_book.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Form1.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Properties.Resources.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_form.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_main_screen.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_in.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_sign_upcs.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_info.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_update_password.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.student_info.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_and_edit_books.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_books.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_borrow.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.view_visit.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.GenerateResource.cache
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CoreCompileInputs.cache
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.exe
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.pdb
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University_Library_Management.Book_report.resources
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\obj\Debug\University-Library-Management.csproj.CopyComplete
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\SecondYear_SecondTerm\Database\Databse project final changes\University-Library-Management\University-Library-Management\bin\Debug\Microsoft.ReportViewer.WinForms.xml
