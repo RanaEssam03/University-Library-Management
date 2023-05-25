@@ -20,14 +20,14 @@ The University Library Management System is a Windows application built using C#
 ## Usage
 
 ### Sign Up
-
+0. choose start as student or as an admin .
 1. Open the application.
 2. Click the "Sign Up" button on the login page.
 3. Fill in the required information (fname, lanme, password, email).
 4. Click the "Submit" button.
 
 ### Sign In
-
+0. choose start as a student or as an admin .
 1. Open the application.
 2. Enter your email and password.
 3. Click the "Sign In" button.
