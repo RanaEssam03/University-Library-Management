@@ -35,33 +35,33 @@ The University Library Management System is a Windows application built using C#
 ### View Books
 
 1. Sign in to the application.
-2. Click the "View Books" button on the main menu.
-3. Browse through the list of books and click on a book to view its details.
+2. Click the " Books" button on the main menu.
+3. Browse through the list of books and filter them using the search engine.
 
 ### Borrow History
 
 1. Sign in to the application.
-2. Click the "Borrow History" button on the main menu.
-3. Browse through the list of borrow history and click on an item to view its details.
+2. Click the "personal info" button on the main menu.
+
 
 ### Update User Information
 
 1. Sign in to the application.
-2. Click the "Update Information" button on the main menu.
+2. Click the "personal info" button on the main menu then click the "update" button.
 3. Fill in the required information (name, password, phone number, address).
-4. Click the "Submit" button.
+4. Click the "edit" button.
 
 ### Add Books
 
 1. Sign in to the application as an administrator.
-2. Click the "Add Books" button on the main menu.
+2. Click the "Books" button on the main menu then the "add" button.
 3. Fill in the required information (book title, author name, publisher, ISBN, quantity).
-4. Click the "Submit" button.
+4. Click the "add" button.
 
 ### View User Information
 
 1. Sign in to the application as an administrator.
-2. Click the "View Users" button on the main menu.
+2. Click the "personal info" button on the main menu.
 3. Browse through the list of users and click on a user to view their details.
 
 ## Built With
